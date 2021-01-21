@@ -6,6 +6,8 @@ public static class MyEventType
 {
     public static string GAMESTART { get { return "GAMESTART"; } }
     public static string LOADINGSCENE_UPDATE { get { return "LoadingSceneUpdate"; } }
+    public static string SLEEP { get { return "SLEEP"; } }
+    public static string AWAKE { get { return "AWAKE"; } }
     //public static string PLAYERLIFE_UPDATE { get { return "PlayerLifeUpdate"; } }
     //public static string PLAYER_DEAD { get { return "PlayerDead"; } }
 

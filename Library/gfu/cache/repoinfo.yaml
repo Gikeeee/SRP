@@ -13,26 +13,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2021-01-07T14:49:05.128+08:00
-  initializedAtString: 2021-01-07T14:49:05.128+08:00
+  lastUpdatedAtString: 2021-01-21T15:21:54.402+08:00
+  initializedAtString: 2021-01-21T15:21:54.402+08:00
   currentGitRemote:
     name: origin
-    url: https://github.com/JazzJazz-114/SRP.git
+    url: git@github.com:JazzJazz-114/SRP.git
     login: 
     user: 
     host: 
     function: 0
     token: 
   currentGitBranch:
-    name: main
-    tracking: origin/main
+    name: master
+    tracking: origin/master
   currentConfigBranch:
-    name: main
+    name: master
     remote:
       name: origin
-      url: https://github.com/JazzJazz-114/SRP.git
-    trackingBranch: main
+      url: git@github.com:JazzJazz-114/SRP.git
+    trackingBranch: master
   currentConfigRemote:
     name: origin
-    url: https://github.com/JazzJazz-114/SRP.git
+    url: git@github.com:JazzJazz-114/SRP.git
   currentHead: 

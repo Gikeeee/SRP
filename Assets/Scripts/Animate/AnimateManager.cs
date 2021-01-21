@@ -28,6 +28,11 @@ public class AnimateManager : MonoBehaviour
 
     public string curRoleName = "Naoko";
 
+    string catName = "Cat";
+
+    bool isCountingDown = false;
+    bool isCat = true;
+
     private void Awake()
     {
         if (Instance == null)
@@ -44,13 +49,16 @@ public class AnimateManager : MonoBehaviour
         {
             AudioManager.GetInstance().SetBgVolume(0.2f);
         });
-        string path = "Role/" + curRoleName;
+        string path = "Role/" + catName;
         PoolManager.GetInstance().GetGObj(path, (newRole) =>
         {
             animator = newRole.GetComponent<Animator>();
             EventCenter.GetInstance().EventTrigger(MyEventType.GAMESTART);
         });
         //注册启动动画事件
+        //休眠和唤醒
+        EventCenter.GetInstance().AddEventListener(MyEventType.AWAKE, CatToGirl);
+        EventCenter.GetInstance().AddEventListener(MyEventType.SLEEP, GirlToCat);
         //来自手势
         EventCenter.GetInstance().AddEventListener(MyEventType.YEAHGESTURE, DoYeah);
         EventCenter.GetInstance().AddEventListener<float>(MyEventType.ROTATEGESTURE, RotateRole);
@@ -72,6 +80,25 @@ public class AnimateManager : MonoBehaviour
         EventCenter.GetInstance().AddEventListener(MyEventType.UNHAPPY, UnDoHappy);
         EventCenter.GetInstance().AddEventListener(MyEventType.UNSAY, UnDoSay);
         
+    }
+
+    private void Update()
+    {
+        //参数表示动画层的id
+        AnimatorStateInfo stateinfo = animator.GetCurrentAnimatorStateInfo(1);
+        if (!isCat && stateinfo.IsName("Idle") && !isCountingDown)
+        {
+            
+        }
+
+
+    }
+
+    IEnumerator CountForSleep()
+    {
+        yield return new WaitForSecondsRealtime(8f);
+
+        EventCenter.GetInstance().EventTrigger(MyEventType.SLEEP);
     }
 
     /// <summary>
@@ -192,8 +219,16 @@ public class AnimateManager : MonoBehaviour
     /// </summary>
     private void DoHi()
     {
-        if (!HaveAnimator()) return;
-        SetAnimatorParam("Hi", true);
+        if (!isCat)
+        {
+            if (!HaveAnimator()) return;
+            SetAnimatorParam("Hi", true);
+        }
+        else
+        {
+            EventCenter.GetInstance().EventTrigger(MyEventType.AWAKE);
+        }
+        
     }
 
     /// <summary>
@@ -298,13 +333,58 @@ public class AnimateManager : MonoBehaviour
             newRole.transform.localScale = animator.transform.localScale;
             PoolManager.GetInstance().PushGObj(animator.gameObject.name, animator.gameObject);
             SetAnimator(newRole.GetComponent<Animator>());
+            curRoleName = (curRoleName == "Naoko") ? "Riko" : "Naoko";
         });
     }
+    #endregion
+
+    #region 休眠（人变猫）
+    private void GirlToCat()
+    {
+        SetAnimatorParam("Hi", false);
+        SetAnimatorParam("isGirlToCat", true);
+        isCat = true;
+    }
+    //IEnumerator AniThenChange_GtC(string path)
+    //{  
+    //    yield return new WaitForSeconds(2.5f);
+
+    //    PoolManager.GetInstance().GetGObj(path, (newRole) =>
+    //    {
+    //        newRole.transform.parent = animator.transform.parent;
+    //        newRole.transform.position = animator.transform.position;
+    //        newRole.transform.localScale = animator.transform.localScale;
+    //        PoolManager.GetInstance().PushGObj(animator.gameObject.name, animator.gameObject);
+    //        SetAnimator(newRole.GetComponent<Animator>());
+    //    }); 
+    //}
+    #endregion
+
+    #region 唤醒（猫变人）
+    private void CatToGirl()
+    {
+        SetAnimatorParam("isCatToGirl", true);
+        isCat = false;
+    }
+
+    //IEnumerator AniThenChange_CtG(string path)
+    //{
+    //    yield return new WaitForSeconds(2.5f);
+    //    PoolManager.GetInstance().GetGObj(path, (newRole) =>
+    //    {
+    //        newRole.transform.parent = animator.transform.parent;
+    //        newRole.transform.position = animator.transform.position;
+    //        newRole.transform.localScale = animator.transform.localScale;
+    //        PoolManager.GetInstance().PushGObj(animator.gameObject.name, animator.gameObject);
+    //        SetAnimator(newRole.GetComponent<Animator>());
+    //    });
+    //}
     #endregion
 
     #region 被打动画
     private void DoBeaten()
     {
+        if (isCat) return;
         if (!HaveAnimator()) return;
         SetAnimatorParam("Beaten", true);
     }
