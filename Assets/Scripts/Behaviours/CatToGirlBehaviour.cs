@@ -19,16 +19,16 @@ public class CatToGirlBehaviour : StateMachineBehaviour
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        string path = "Role/" + AnimateManager.Instance.curRoleName;
-        PoolManager.GetInstance().GetGObj(path, (newRole) =>
-        {
-            newRole.transform.parent = animator.transform.parent;
-            newRole.transform.position = animator.transform.position;
-            newRole.transform.localScale = animator.transform.localScale;
-            PoolManager.GetInstance().PushGObj(animator.gameObject.name, animator.gameObject);
-            AnimateManager.Instance.SetAnimator(newRole.GetComponent<Animator>());
-            EventCenter.GetInstance().EventTrigger(MyEventType.WAVEGESTURE);
-        });
+        //string path = "Role/" + AnimateManager.Instance.curRoleName;
+        //PoolManager.GetInstance().GetGObj(path, (newRole) =>
+        //{
+        //    newRole.transform.parent = animator.transform.parent;
+        //    newRole.transform.position = animator.transform.position;
+        //    newRole.transform.localScale = animator.transform.localScale;
+        //    PoolManager.GetInstance().PushGObj(animator.gameObject.name, animator.gameObject);
+        //    AnimateManager.Instance.SetAnimator(newRole.GetComponent<Animator>());
+        //    EventCenter.GetInstance().EventTrigger(MyEventType.WAVEGESTURE);
+        //});
     }
 
     // OnStateMove is called right after Animator.OnAnimatorMove()

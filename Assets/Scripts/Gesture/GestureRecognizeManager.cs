@@ -30,7 +30,8 @@ public class GestureRecognizeManager : MonoBehaviour
 
         if (!AnimateManager.Instance.HaveAnimator()) return;
         #region 第一层手势
-        if (AnimateManager.Instance.GetStateInfo().IsName(AnimationStateName.IDLE))
+        if (AnimateManager.Instance.GetStateInfo().IsName(AnimationStateName.IDLE) || 
+            AnimateManager.Instance.GetStateInfo().fullPathHash == 1432961145)
         {
             if (leftHand.isYeah)
             {
@@ -38,7 +39,9 @@ public class GestureRecognizeManager : MonoBehaviour
             }
             else if(rightHand.isWaving)
             {
+                Debug.Log("挥手");
                 EventCenter.GetInstance().EventTrigger(MyEventType.HELLOW);
+                
             }
             else if(rightHand.indexMoveVel != 0)
             {
@@ -54,6 +57,7 @@ public class GestureRecognizeManager : MonoBehaviour
             }
             else if (rightHand.isBeaten)
             {
+                Debug.Log("da");
                 EventCenter.GetInstance().EventTrigger(MyEventType.BEATENGESTURE);
             }
         }

@@ -13,51 +13,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2021-01-21T16:07:47.747+08:00
-  initializedAtString: 2021-01-21T15:21:55.031+08:00
+  lastUpdatedAtString: 2021-01-22T01:57:17.310+08:00
+  initializedAtString: 2021-01-21T20:45:14.547+08:00
   entries:
-  - path: .vs\SRPproject\v16\.suo
-    fullPath: C:\Softwares\UnityProjects\SRPproject\.vs\SRPproject\v16\.suo
-    projectPath: .vs\SRPproject\v16\.suo
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assembly-CSharp.csproj
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Assembly-CSharp.csproj
-    projectPath: Assembly-CSharp.csproj
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assembly-CSharp-Editor.csproj
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Assembly-CSharp-Editor.csproj
-    projectPath: Assembly-CSharp-Editor.csproj
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assembly-CSharp-Editor-firstpass.csproj
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Assembly-CSharp-Editor-firstpass.csproj
-    projectPath: Assembly-CSharp-Editor-firstpass.csproj
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Animations\Naoko Ani.controller
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Assets\Animations\Naoko Ani.controller
-    projectPath: Assets\Animations\Naoko Ani.controller
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Assets\Resources\Role\Cat.prefab
     fullPath: C:\Softwares\UnityProjects\SRPproject\Assets\Resources\Role\Cat.prefab
     projectPath: Assets\Resources\Role\Cat.prefab
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Resources\Role\Cat.prefab.meta
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Assets\Resources\Role\Cat.prefab.meta
-    projectPath: Assets\Resources\Role\Cat.prefab.meta
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Resources\Role\Naoko.prefab
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Assets\Resources\Role\Naoko.prefab
+    projectPath: Assets\Resources\Role\Naoko.prefab
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Resources\Role\Riko.prefab
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Assets\Resources\Role\Riko.prefab
+    projectPath: Assets\Resources\Role\Riko.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Assets\Scene\Capsule Hands (Desktop).unity
     fullPath: C:\Softwares\UnityProjects\SRPproject\Assets\Scene\Capsule Hands (Desktop).unity
     projectPath: Assets\Scene\Capsule Hands (Desktop).unity
@@ -70,918 +46,522 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Assets\Scripts\Behaviours\BeatenBehaviour.cs
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Assets\Scripts\Behaviours\BeatenBehaviour.cs
+    projectPath: Assets\Scripts\Behaviours\BeatenBehaviour.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Assets\Scripts\Behaviours\CatToGirlBehaviour.cs
     fullPath: C:\Softwares\UnityProjects\SRPproject\Assets\Scripts\Behaviours\CatToGirlBehaviour.cs
     projectPath: Assets\Scripts\Behaviours\CatToGirlBehaviour.cs
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Scripts\Behaviours\CatToGirlBehaviour.cs.meta
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Assets\Scripts\Behaviours\CatToGirlBehaviour.cs.meta
-    projectPath: Assets\Scripts\Behaviours\CatToGirlBehaviour.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Assets\Scripts\Behaviours\GirlToCatBehaviour.cs
     fullPath: C:\Softwares\UnityProjects\SRPproject\Assets\Scripts\Behaviours\GirlToCatBehaviour.cs
     projectPath: Assets\Scripts\Behaviours\GirlToCatBehaviour.cs
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Scripts\Behaviours\GirlToCatBehaviour.cs.meta
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Assets\Scripts\Behaviours\GirlToCatBehaviour.cs.meta
-    projectPath: Assets\Scripts\Behaviours\GirlToCatBehaviour.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Assets\Scripts\Behaviours\IdleBehaviour.cs
     fullPath: C:\Softwares\UnityProjects\SRPproject\Assets\Scripts\Behaviours\IdleBehaviour.cs
     projectPath: Assets\Scripts\Behaviours\IdleBehaviour.cs
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Scripts\Behaviours\IdleBehaviour.cs.meta
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Assets\Scripts\Behaviours\IdleBehaviour.cs.meta
-    projectPath: Assets\Scripts\Behaviours\IdleBehaviour.cs.meta
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Scripts\Gesture\GestureRecognizeManager.cs
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Assets\Scripts\Gesture\GestureRecognizeManager.cs
+    projectPath: Assets\Scripts\Gesture\GestureRecognizeManager.cs
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Assets\Scripts\ProjectBase\Event\EventTypes.cs
     fullPath: C:\Softwares\UnityProjects\SRPproject\Assets\Scripts\ProjectBase\Event\EventTypes.cs
     projectPath: Assets\Scripts\ProjectBase\Event\EventTypes.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Tmp.meta
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Assets\Tmp.meta
-    projectPath: Assets\Tmp.meta
+  - path: Assets\Scripts\Speech\SpeechSynthesis.cs
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Assets\Scripts\Speech\SpeechSynthesis.cs
+    projectPath: Assets\Scripts\Speech\SpeechSynthesis.cs
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Assets\Tmp\Cat.anim
     fullPath: C:\Softwares\UnityProjects\SRPproject\Assets\Tmp\Cat.anim
     projectPath: Assets\Tmp\Cat.anim
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Tmp\Cat.anim.meta
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Assets\Tmp\Cat.anim.meta
-    projectPath: Assets\Tmp\Cat.anim.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Assets\Tmp\Cat.controller
     fullPath: C:\Softwares\UnityProjects\SRPproject\Assets\Tmp\Cat.controller
     projectPath: Assets\Tmp\Cat.controller
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Tmp\Cat.controller.meta
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Assets\Tmp\Cat.controller.meta
-    projectPath: Assets\Tmp\Cat.controller.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Assets\Tmp\CatToGirl.anim
     fullPath: C:\Softwares\UnityProjects\SRPproject\Assets\Tmp\CatToGirl.anim
     projectPath: Assets\Tmp\CatToGirl.anim
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Tmp\CatToGirl.anim.meta
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Assets\Tmp\CatToGirl.anim.meta
-    projectPath: Assets\Tmp\CatToGirl.anim.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\ArtifactDB
     fullPath: C:\Softwares\UnityProjects\SRPproject\Library\ArtifactDB
     projectPath: Library\ArtifactDB
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\Artifacts\00\0069e9c31e01cc1d3ac88daf2cf395bd
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\00\0069e9c31e01cc1d3ac88daf2cf395bd
-    projectPath: Library\Artifacts\00\0069e9c31e01cc1d3ac88daf2cf395bd
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\02\023ebec85e638ef61eb6b2b893463691
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\02\023ebec85e638ef61eb6b2b893463691
-    projectPath: Library\Artifacts\02\023ebec85e638ef61eb6b2b893463691
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\06\063bb0bf4b57ddf2b53ababf65e95552
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\06\063bb0bf4b57ddf2b53ababf65e95552
-    projectPath: Library\Artifacts\06\063bb0bf4b57ddf2b53ababf65e95552
+  - path: Library\Artifacts\00\000c33513e9aefd603f6e1cc9a33029f
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\00\000c33513e9aefd603f6e1cc9a33029f
+    projectPath: Library\Artifacts\00\000c33513e9aefd603f6e1cc9a33029f
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\06\0644aaab9ca249441b1004133322b583
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\06\0644aaab9ca249441b1004133322b583
-    projectPath: Library\Artifacts\06\0644aaab9ca249441b1004133322b583
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\07\074b9744c194cc154b6fa21b58f69567
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\07\074b9744c194cc154b6fa21b58f69567
-    projectPath: Library\Artifacts\07\074b9744c194cc154b6fa21b58f69567
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: Library\Artifacts\07\0757bd2d53550ae738d5334670943ed2
     fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\07\0757bd2d53550ae738d5334670943ed2
     projectPath: Library\Artifacts\07\0757bd2d53550ae738d5334670943ed2
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\08\08225ced3473305b8b8a2915cd843ab3
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\08\08225ced3473305b8b8a2915cd843ab3
+    projectPath: Library\Artifacts\08\08225ced3473305b8b8a2915cd843ab3
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\07\07a1298b5fc8f702dd29556862e860d6
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\07\07a1298b5fc8f702dd29556862e860d6
-    projectPath: Library\Artifacts\07\07a1298b5fc8f702dd29556862e860d6
+  - path: Library\Artifacts\11\11aa14d3d5f93e29e0bbf727e5a649f0
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\11\11aa14d3d5f93e29e0bbf727e5a649f0
+    projectPath: Library\Artifacts\11\11aa14d3d5f93e29e0bbf727e5a649f0
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\08\08c0b3b44f0227503d566e2069aa7ea2
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\08\08c0b3b44f0227503d566e2069aa7ea2
-    projectPath: Library\Artifacts\08\08c0b3b44f0227503d566e2069aa7ea2
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\12\12f1237dcfefca90ae6876cd307d5336
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\12\12f1237dcfefca90ae6876cd307d5336
+    projectPath: Library\Artifacts\12\12f1237dcfefca90ae6876cd307d5336
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\0c\0c806479e6b9abc45ab01b2936cd6105
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\0c\0c806479e6b9abc45ab01b2936cd6105
-    projectPath: Library\Artifacts\0c\0c806479e6b9abc45ab01b2936cd6105
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\13\1301f3bad3f4a396e22a6ac0d607cfae
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\13\1301f3bad3f4a396e22a6ac0d607cfae
+    projectPath: Library\Artifacts\13\1301f3bad3f4a396e22a6ac0d607cfae
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\0f\0f3f02e7e83b5d06b610b593292f8ad8
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\0f\0f3f02e7e83b5d06b610b593292f8ad8
-    projectPath: Library\Artifacts\0f\0f3f02e7e83b5d06b610b593292f8ad8
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\1b\1b56c6244c032f8c4597884a6f9225ca
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\1b\1b56c6244c032f8c4597884a6f9225ca
+    projectPath: Library\Artifacts\1b\1b56c6244c032f8c4597884a6f9225ca
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\10\1022c7dc49fd6062d70c644b791bf83e
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\10\1022c7dc49fd6062d70c644b791bf83e
-    projectPath: Library\Artifacts\10\1022c7dc49fd6062d70c644b791bf83e
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\1b\1be587f38de128db9fe92722e351e6c6
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\1b\1be587f38de128db9fe92722e351e6c6
+    projectPath: Library\Artifacts\1b\1be587f38de128db9fe92722e351e6c6
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\11\11482e033cfe1d6edf0b5f554d02ee7e
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\11\11482e033cfe1d6edf0b5f554d02ee7e
-    projectPath: Library\Artifacts\11\11482e033cfe1d6edf0b5f554d02ee7e
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\22\225cd55c3163a659b516ec70b43f0f47
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\22\225cd55c3163a659b516ec70b43f0f47
+    projectPath: Library\Artifacts\22\225cd55c3163a659b516ec70b43f0f47
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\12\121c6430f0090456983f55aa39711632
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\12\121c6430f0090456983f55aa39711632
-    projectPath: Library\Artifacts\12\121c6430f0090456983f55aa39711632
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\23\233c0ba6cd67bf60ea8b573d379c1d41
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\23\233c0ba6cd67bf60ea8b573d379c1d41
+    projectPath: Library\Artifacts\23\233c0ba6cd67bf60ea8b573d379c1d41
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\12\126d9530a968e00e5b9dd36274bf72ba
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\12\126d9530a968e00e5b9dd36274bf72ba
-    projectPath: Library\Artifacts\12\126d9530a968e00e5b9dd36274bf72ba
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\16\16897326e7b0a1ce37cdf7a515d265a8
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\16\16897326e7b0a1ce37cdf7a515d265a8
-    projectPath: Library\Artifacts\16\16897326e7b0a1ce37cdf7a515d265a8
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\16\168c99cd245f329e6cefbd20f94b52eb
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\16\168c99cd245f329e6cefbd20f94b52eb
-    projectPath: Library\Artifacts\16\168c99cd245f329e6cefbd20f94b52eb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\16\16f10ff7c861ed7cd4728a0b27c12e46
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\16\16f10ff7c861ed7cd4728a0b27c12e46
-    projectPath: Library\Artifacts\16\16f10ff7c861ed7cd4728a0b27c12e46
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\1c\1c3ddd03e470c99eeb5343e0e3dbf291
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\1c\1c3ddd03e470c99eeb5343e0e3dbf291
-    projectPath: Library\Artifacts\1c\1c3ddd03e470c99eeb5343e0e3dbf291
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\1d\1d84a15a4c1a5e632b6c4b83b1ff9fb9
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\1d\1d84a15a4c1a5e632b6c4b83b1ff9fb9
-    projectPath: Library\Artifacts\1d\1d84a15a4c1a5e632b6c4b83b1ff9fb9
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\1e\1efacedf0f1be4cc220f83e0db1b996e
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\1e\1efacedf0f1be4cc220f83e0db1b996e
-    projectPath: Library\Artifacts\1e\1efacedf0f1be4cc220f83e0db1b996e
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\21\21c0d8d11875e54391ecc732d9092cc0
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\21\21c0d8d11875e54391ecc732d9092cc0
-    projectPath: Library\Artifacts\21\21c0d8d11875e54391ecc732d9092cc0
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\23\234bd2a0b7d4e11d61ab026879ea485d
     fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\23\234bd2a0b7d4e11d61ab026879ea485d
     projectPath: Library\Artifacts\23\234bd2a0b7d4e11d61ab026879ea485d
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\24\24067c5dbba89b9b98f0945561d33ea3
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\24\24067c5dbba89b9b98f0945561d33ea3
-    projectPath: Library\Artifacts\24\24067c5dbba89b9b98f0945561d33ea3
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\25\25a173c5bfefaf17e9074eb1528f229e
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\25\25a173c5bfefaf17e9074eb1528f229e
-    projectPath: Library\Artifacts\25\25a173c5bfefaf17e9074eb1528f229e
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\28\28d59117afd07e5ab2aadd8f47c7b0a7
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\28\28d59117afd07e5ab2aadd8f47c7b0a7
-    projectPath: Library\Artifacts\28\28d59117afd07e5ab2aadd8f47c7b0a7
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\2b\2b91fa92b3896298e2eae185ca6a769d
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\2b\2b91fa92b3896298e2eae185ca6a769d
-    projectPath: Library\Artifacts\2b\2b91fa92b3896298e2eae185ca6a769d
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\2c\2c4f2449d3d8b470646cb5b2c907f565
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\2c\2c4f2449d3d8b470646cb5b2c907f565
-    projectPath: Library\Artifacts\2c\2c4f2449d3d8b470646cb5b2c907f565
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\30\30575834beb8663e7cf2a392c6f75d2e
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\30\30575834beb8663e7cf2a392c6f75d2e
-    projectPath: Library\Artifacts\30\30575834beb8663e7cf2a392c6f75d2e
+  - path: Library\Artifacts\23\23eb58ac102c49cc81e0e512ab90f781
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\23\23eb58ac102c49cc81e0e512ab90f781
+    projectPath: Library\Artifacts\23\23eb58ac102c49cc81e0e512ab90f781
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\33\33bbb07c6da346212ae3508c76324272
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\33\33bbb07c6da346212ae3508c76324272
-    projectPath: Library\Artifacts\33\33bbb07c6da346212ae3508c76324272
+  - path: Library\Artifacts\26\26084f5cacde207b2f11e6e2b5548a26
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\26\26084f5cacde207b2f11e6e2b5548a26
+    projectPath: Library\Artifacts\26\26084f5cacde207b2f11e6e2b5548a26
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\35\35bcb2e8f376f9c0a050559795aa81ee
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\35\35bcb2e8f376f9c0a050559795aa81ee
-    projectPath: Library\Artifacts\35\35bcb2e8f376f9c0a050559795aa81ee
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\26\26ca445f02cd4bad5a702852087fd634
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\26\26ca445f02cd4bad5a702852087fd634
+    projectPath: Library\Artifacts\26\26ca445f02cd4bad5a702852087fd634
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\37\37f091b027dceb139abe41cad4b2648d
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\37\37f091b027dceb139abe41cad4b2648d
-    projectPath: Library\Artifacts\37\37f091b027dceb139abe41cad4b2648d
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\29\29f36c82f6fb96217a3279616e4eee37
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\29\29f36c82f6fb96217a3279616e4eee37
+    projectPath: Library\Artifacts\29\29f36c82f6fb96217a3279616e4eee37
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\38\38234eddc44ff79c78402a8689e4ea6c
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\38\38234eddc44ff79c78402a8689e4ea6c
-    projectPath: Library\Artifacts\38\38234eddc44ff79c78402a8689e4ea6c
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\2d\2dcb35c829f82e07aa08f42c72fca690
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\2d\2dcb35c829f82e07aa08f42c72fca690
+    projectPath: Library\Artifacts\2d\2dcb35c829f82e07aa08f42c72fca690
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\38\38e895198c1a3934e2f89a60e2a9d6eb
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\38\38e895198c1a3934e2f89a60e2a9d6eb
-    projectPath: Library\Artifacts\38\38e895198c1a3934e2f89a60e2a9d6eb
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\30\30737fa587c019919647583612b695c1
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\30\30737fa587c019919647583612b695c1
+    projectPath: Library\Artifacts\30\30737fa587c019919647583612b695c1
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\39\399d13c0bf9bd2c7153068defd977a3c
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\39\399d13c0bf9bd2c7153068defd977a3c
-    projectPath: Library\Artifacts\39\399d13c0bf9bd2c7153068defd977a3c
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\32\32dce393797c429e58f06119a8f781dc
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\32\32dce393797c429e58f06119a8f781dc
+    projectPath: Library\Artifacts\32\32dce393797c429e58f06119a8f781dc
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\3b\3b26ed8e08e88cd54fd759dfb8360f70
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\3b\3b26ed8e08e88cd54fd759dfb8360f70
-    projectPath: Library\Artifacts\3b\3b26ed8e08e88cd54fd759dfb8360f70
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\35\352d3fe6c5d73e4bc2763f3a66638c4b
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\35\352d3fe6c5d73e4bc2763f3a66638c4b
+    projectPath: Library\Artifacts\35\352d3fe6c5d73e4bc2763f3a66638c4b
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\3c\3c1b3c47f8139713b4a406125a835429
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\3c\3c1b3c47f8139713b4a406125a835429
-    projectPath: Library\Artifacts\3c\3c1b3c47f8139713b4a406125a835429
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\38\38acc4fccdded3d3ac0fda7d091ee6d0
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\38\38acc4fccdded3d3ac0fda7d091ee6d0
+    projectPath: Library\Artifacts\38\38acc4fccdded3d3ac0fda7d091ee6d0
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\3d\3dfed67cced6431fe1a0f356b058aa40
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\3d\3dfed67cced6431fe1a0f356b058aa40
-    projectPath: Library\Artifacts\3d\3dfed67cced6431fe1a0f356b058aa40
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\3f\3f81b31e2818af9681dc4f2c18536f9f
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\3f\3f81b31e2818af9681dc4f2c18536f9f
+    projectPath: Library\Artifacts\3f\3f81b31e2818af9681dc4f2c18536f9f
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\3e\3e60005cbb4905cd44893f2f3205c86a
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\3e\3e60005cbb4905cd44893f2f3205c86a
-    projectPath: Library\Artifacts\3e\3e60005cbb4905cd44893f2f3205c86a
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\3f\3f72c0bd1e64e4e566392e91aba54a7b
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\3f\3f72c0bd1e64e4e566392e91aba54a7b
-    projectPath: Library\Artifacts\3f\3f72c0bd1e64e4e566392e91aba54a7b
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\41\4155ed5322fca986f75734b5b974f98e
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\41\4155ed5322fca986f75734b5b974f98e
-    projectPath: Library\Artifacts\41\4155ed5322fca986f75734b5b974f98e
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\41\41fcb06c2dd3a1e5929541449606d276
     fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\41\41fcb06c2dd3a1e5929541449606d276
     projectPath: Library\Artifacts\41\41fcb06c2dd3a1e5929541449606d276
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\42\42be64e7d1bc9ff4f1ead083cd638aec
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\42\42be64e7d1bc9ff4f1ead083cd638aec
-    projectPath: Library\Artifacts\42\42be64e7d1bc9ff4f1ead083cd638aec
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\42\42ef18fc9c1433ab923cf40e4279e319
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\42\42ef18fc9c1433ab923cf40e4279e319
-    projectPath: Library\Artifacts\42\42ef18fc9c1433ab923cf40e4279e319
+  - path: Library\Artifacts\4c\4c8bfc48592b95c6e3591f5dfc7b0223
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\4c\4c8bfc48592b95c6e3591f5dfc7b0223
+    projectPath: Library\Artifacts\4c\4c8bfc48592b95c6e3591f5dfc7b0223
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\44\4401e5eaff8b598cb65b22f43bd40e47
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\44\4401e5eaff8b598cb65b22f43bd40e47
-    projectPath: Library\Artifacts\44\4401e5eaff8b598cb65b22f43bd40e47
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\44\446f9a221a63862faa20832ba422dbcb
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\44\446f9a221a63862faa20832ba422dbcb
-    projectPath: Library\Artifacts\44\446f9a221a63862faa20832ba422dbcb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\44\44782193829140df871217b464ff8445
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\44\44782193829140df871217b464ff8445
-    projectPath: Library\Artifacts\44\44782193829140df871217b464ff8445
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\45\453cd16c615c32d04e499b525b2a5603
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\45\453cd16c615c32d04e499b525b2a5603
-    projectPath: Library\Artifacts\45\453cd16c615c32d04e499b525b2a5603
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\46\466e44d6b9e3d9a6454b33efc258e7ec
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\46\466e44d6b9e3d9a6454b33efc258e7ec
-    projectPath: Library\Artifacts\46\466e44d6b9e3d9a6454b33efc258e7ec
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\46\4678b570bd715e8f882f0254c3f2cf41
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\46\4678b570bd715e8f882f0254c3f2cf41
-    projectPath: Library\Artifacts\46\4678b570bd715e8f882f0254c3f2cf41
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\47\473e9a0d8cde10e23aa1e3702b24cdfa
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\47\473e9a0d8cde10e23aa1e3702b24cdfa
-    projectPath: Library\Artifacts\47\473e9a0d8cde10e23aa1e3702b24cdfa
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\53\530f2134a9a0db7ceb1bec79f232127c
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\53\530f2134a9a0db7ceb1bec79f232127c
-    projectPath: Library\Artifacts\53\530f2134a9a0db7ceb1bec79f232127c
+  - path: Library\Artifacts\56\56812dd8ade9acdcf15d18e5eff88aea
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\56\56812dd8ade9acdcf15d18e5eff88aea
+    projectPath: Library\Artifacts\56\56812dd8ade9acdcf15d18e5eff88aea
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\54\5496933279b393b52aebb9bcb6f367fb
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\54\5496933279b393b52aebb9bcb6f367fb
-    projectPath: Library\Artifacts\54\5496933279b393b52aebb9bcb6f367fb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\54\54e3244cdcde02d751438f3f5ba6b022
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\54\54e3244cdcde02d751438f3f5ba6b022
-    projectPath: Library\Artifacts\54\54e3244cdcde02d751438f3f5ba6b022
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\55\55c5934aab65d409b1dcb6df98cd8a77
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\55\55c5934aab65d409b1dcb6df98cd8a77
-    projectPath: Library\Artifacts\55\55c5934aab65d409b1dcb6df98cd8a77
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\58\58d1368491fe496878f75a10cd43e31d
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\58\58d1368491fe496878f75a10cd43e31d
-    projectPath: Library\Artifacts\58\58d1368491fe496878f75a10cd43e31d
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\59\59d65db85502431925a6bd00f525ce1c
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\59\59d65db85502431925a6bd00f525ce1c
-    projectPath: Library\Artifacts\59\59d65db85502431925a6bd00f525ce1c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\5a\5a8bd8c4252d549b861bc196d07b84dd
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\5a\5a8bd8c4252d549b861bc196d07b84dd
-    projectPath: Library\Artifacts\5a\5a8bd8c4252d549b861bc196d07b84dd
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\5b\5bc8d762ee2acf994137a9c7a9a98dc2
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\5b\5bc8d762ee2acf994137a9c7a9a98dc2
-    projectPath: Library\Artifacts\5b\5bc8d762ee2acf994137a9c7a9a98dc2
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\5f\5fcbc057fc412544eef3da9dae824dfd
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\5f\5fcbc057fc412544eef3da9dae824dfd
-    projectPath: Library\Artifacts\5f\5fcbc057fc412544eef3da9dae824dfd
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\61\616f4a29aa3d6308e9cdd13c4b6461c3
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\61\616f4a29aa3d6308e9cdd13c4b6461c3
-    projectPath: Library\Artifacts\61\616f4a29aa3d6308e9cdd13c4b6461c3
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\62\628b646b8c1184fa8a5bfdd385e6a118
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\62\628b646b8c1184fa8a5bfdd385e6a118
-    projectPath: Library\Artifacts\62\628b646b8c1184fa8a5bfdd385e6a118
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\62\62f081e807ee58ed22570a3fc878c999
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\62\62f081e807ee58ed22570a3fc878c999
-    projectPath: Library\Artifacts\62\62f081e807ee58ed22570a3fc878c999
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\67\6785d8b25db6e6673f182645036fff99
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\67\6785d8b25db6e6673f182645036fff99
-    projectPath: Library\Artifacts\67\6785d8b25db6e6673f182645036fff99
+  - path: Library\Artifacts\59\5990a21c85492f87c24ddd83ca7e8d34
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\59\5990a21c85492f87c24ddd83ca7e8d34
+    projectPath: Library\Artifacts\59\5990a21c85492f87c24ddd83ca7e8d34
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\70\70933871f85b17d37b167ac312fcea6d
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\70\70933871f85b17d37b167ac312fcea6d
-    projectPath: Library\Artifacts\70\70933871f85b17d37b167ac312fcea6d
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\70\70c4270a4248000fab11486fd1a2a924
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\70\70c4270a4248000fab11486fd1a2a924
-    projectPath: Library\Artifacts\70\70c4270a4248000fab11486fd1a2a924
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\74\74fac3e1e9f00aea173facf25ee2d02d
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\74\74fac3e1e9f00aea173facf25ee2d02d
-    projectPath: Library\Artifacts\74\74fac3e1e9f00aea173facf25ee2d02d
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\76\76077d8302a119c08208b158acd71d31
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\76\76077d8302a119c08208b158acd71d31
-    projectPath: Library\Artifacts\76\76077d8302a119c08208b158acd71d31
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\77\772735311e16187ce84c9e73d90dc204
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\77\772735311e16187ce84c9e73d90dc204
-    projectPath: Library\Artifacts\77\772735311e16187ce84c9e73d90dc204
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\7a\7a38da6c7ae9dcae7837faf2e3f10b23
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\7a\7a38da6c7ae9dcae7837faf2e3f10b23
-    projectPath: Library\Artifacts\7a\7a38da6c7ae9dcae7837faf2e3f10b23
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\7b\7bcdf888a1ae19a361a16c225672625b
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\7b\7bcdf888a1ae19a361a16c225672625b
-    projectPath: Library\Artifacts\7b\7bcdf888a1ae19a361a16c225672625b
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\7d\7d50a3e773361b571ddc092ad646768f
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\7d\7d50a3e773361b571ddc092ad646768f
-    projectPath: Library\Artifacts\7d\7d50a3e773361b571ddc092ad646768f
+  - path: Library\Artifacts\5e\5e4bc7b8e299d7a2a26af706c0d61c24
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\5e\5e4bc7b8e299d7a2a26af706c0d61c24
+    projectPath: Library\Artifacts\5e\5e4bc7b8e299d7a2a26af706c0d61c24
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\7d\7d649ca4295b68e0a7b95611b5ba1904
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\7d\7d649ca4295b68e0a7b95611b5ba1904
-    projectPath: Library\Artifacts\7d\7d649ca4295b68e0a7b95611b5ba1904
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\7e\7e34531094146fb4f40f6a5e4f34231b
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\7e\7e34531094146fb4f40f6a5e4f34231b
-    projectPath: Library\Artifacts\7e\7e34531094146fb4f40f6a5e4f34231b
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\7f\7ff622ec1f2c76a3d5416be6ee452a40
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\7f\7ff622ec1f2c76a3d5416be6ee452a40
-    projectPath: Library\Artifacts\7f\7ff622ec1f2c76a3d5416be6ee452a40
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\81\814e5cb2e8d6843d2998664bfd72c500
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\81\814e5cb2e8d6843d2998664bfd72c500
-    projectPath: Library\Artifacts\81\814e5cb2e8d6843d2998664bfd72c500
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\82\82a7f679c1fcd1ed7b68f70ea904e5cb
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\82\82a7f679c1fcd1ed7b68f70ea904e5cb
-    projectPath: Library\Artifacts\82\82a7f679c1fcd1ed7b68f70ea904e5cb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\86\8685fcaca9212d940fd36343311881ce
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\86\8685fcaca9212d940fd36343311881ce
-    projectPath: Library\Artifacts\86\8685fcaca9212d940fd36343311881ce
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\87\8734e9d98e2f2069854d35cd4e034f55
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\87\8734e9d98e2f2069854d35cd4e034f55
-    projectPath: Library\Artifacts\87\8734e9d98e2f2069854d35cd4e034f55
+  - path: Library\Artifacts\63\6347982a0a8414a41df4e7efe00d4ae6
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\63\6347982a0a8414a41df4e7efe00d4ae6
+    projectPath: Library\Artifacts\63\6347982a0a8414a41df4e7efe00d4ae6
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\87\875c9cb605d24499f707421b414a969f
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\87\875c9cb605d24499f707421b414a969f
-    projectPath: Library\Artifacts\87\875c9cb605d24499f707421b414a969f
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\87\87ffb29cd1a826cd56193bbb2c3133b8
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\87\87ffb29cd1a826cd56193bbb2c3133b8
-    projectPath: Library\Artifacts\87\87ffb29cd1a826cd56193bbb2c3133b8
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\8a\8a96285c302ae7f03b919cde50b4450c
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\8a\8a96285c302ae7f03b919cde50b4450c
-    projectPath: Library\Artifacts\8a\8a96285c302ae7f03b919cde50b4450c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\8a\8ac31cd94f1892af79152a8861739d48
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\8a\8ac31cd94f1892af79152a8861739d48
-    projectPath: Library\Artifacts\8a\8ac31cd94f1892af79152a8861739d48
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\8c\8c13b65855a5b944230b09ae95d65226
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\8c\8c13b65855a5b944230b09ae95d65226
-    projectPath: Library\Artifacts\8c\8c13b65855a5b944230b09ae95d65226
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\8d\8ded08af5c2a50e502d50de8a2278fbd
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\8d\8ded08af5c2a50e502d50de8a2278fbd
-    projectPath: Library\Artifacts\8d\8ded08af5c2a50e502d50de8a2278fbd
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\90\9067015b2f0e021dcbd5cae662a0cda5
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\90\9067015b2f0e021dcbd5cae662a0cda5
-    projectPath: Library\Artifacts\90\9067015b2f0e021dcbd5cae662a0cda5
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\90\90a896c51e32d1e773c4838d9f3e23b5
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\90\90a896c51e32d1e773c4838d9f3e23b5
-    projectPath: Library\Artifacts\90\90a896c51e32d1e773c4838d9f3e23b5
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\93\933cd845dd8c706d7ea58dc9b7f2db5a
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\93\933cd845dd8c706d7ea58dc9b7f2db5a
-    projectPath: Library\Artifacts\93\933cd845dd8c706d7ea58dc9b7f2db5a
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\95\954a05c2d363e4c74829579ba29d2747
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\95\954a05c2d363e4c74829579ba29d2747
-    projectPath: Library\Artifacts\95\954a05c2d363e4c74829579ba29d2747
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\96\963e4c98f1b0abf3cf13915981b42b50
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\96\963e4c98f1b0abf3cf13915981b42b50
-    projectPath: Library\Artifacts\96\963e4c98f1b0abf3cf13915981b42b50
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\97\97efd393d13d3d0c6dc28a1d51f35630
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\97\97efd393d13d3d0c6dc28a1d51f35630
-    projectPath: Library\Artifacts\97\97efd393d13d3d0c6dc28a1d51f35630
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\9d\9d0a95af833e18e940c2fb7cf8eb48ca
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\9d\9d0a95af833e18e940c2fb7cf8eb48ca
-    projectPath: Library\Artifacts\9d\9d0a95af833e18e940c2fb7cf8eb48ca
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\9d\9d0d88dec8b3c83646a193c0f09e97b6
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\9d\9d0d88dec8b3c83646a193c0f09e97b6
-    projectPath: Library\Artifacts\9d\9d0d88dec8b3c83646a193c0f09e97b6
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\9f\9f67b3bc9004f7506bc6dc4dd08a7a70
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\9f\9f67b3bc9004f7506bc6dc4dd08a7a70
-    projectPath: Library\Artifacts\9f\9f67b3bc9004f7506bc6dc4dd08a7a70
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\a2\a2faca5479ada05e858ef16f2c2532fd
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\a2\a2faca5479ada05e858ef16f2c2532fd
-    projectPath: Library\Artifacts\a2\a2faca5479ada05e858ef16f2c2532fd
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\a5\a5f6eaef8f9ad4a9929e81e2d58f2ae0
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\a5\a5f6eaef8f9ad4a9929e81e2d58f2ae0
-    projectPath: Library\Artifacts\a5\a5f6eaef8f9ad4a9929e81e2d58f2ae0
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\a7\a7f7644e646fb279706ed3e202c1082a
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\a7\a7f7644e646fb279706ed3e202c1082a
-    projectPath: Library\Artifacts\a7\a7f7644e646fb279706ed3e202c1082a
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\a8\a8c111bce49c583cfa8b8e37125c19a4
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\a8\a8c111bce49c583cfa8b8e37125c19a4
-    projectPath: Library\Artifacts\a8\a8c111bce49c583cfa8b8e37125c19a4
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\ab\abedb1ea175832831b5002a3844a188d
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\ab\abedb1ea175832831b5002a3844a188d
-    projectPath: Library\Artifacts\ab\abedb1ea175832831b5002a3844a188d
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\b2\b215142fc9c7beaeb3f28d8f7e9ddc66
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\b2\b215142fc9c7beaeb3f28d8f7e9ddc66
-    projectPath: Library\Artifacts\b2\b215142fc9c7beaeb3f28d8f7e9ddc66
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\b4\b415037a34e5b8f98bf5bc8faa681628
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\b4\b415037a34e5b8f98bf5bc8faa681628
-    projectPath: Library\Artifacts\b4\b415037a34e5b8f98bf5bc8faa681628
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\b5\b590939d60c4947557384ace34a1cce4
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\b5\b590939d60c4947557384ace34a1cce4
-    projectPath: Library\Artifacts\b5\b590939d60c4947557384ace34a1cce4
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\b9\b934de4891207296282a8aaaaa785bcd
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\b9\b934de4891207296282a8aaaaa785bcd
-    projectPath: Library\Artifacts\b9\b934de4891207296282a8aaaaa785bcd
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\bf\bfaf373e8a642e3b8084575f54ef2782
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\bf\bfaf373e8a642e3b8084575f54ef2782
-    projectPath: Library\Artifacts\bf\bfaf373e8a642e3b8084575f54ef2782
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\c2\c25abb251d75b0c2f6a433ab11f3a9a4
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\c2\c25abb251d75b0c2f6a433ab11f3a9a4
-    projectPath: Library\Artifacts\c2\c25abb251d75b0c2f6a433ab11f3a9a4
+  - path: Library\Artifacts\63\637c143a4fe837a472e70383e3c05cc8
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\63\637c143a4fe837a472e70383e3c05cc8
+    projectPath: Library\Artifacts\63\637c143a4fe837a472e70383e3c05cc8
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\c2\c28d8558848dbda937bd750e920bb6f2
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\c2\c28d8558848dbda937bd750e920bb6f2
-    projectPath: Library\Artifacts\c2\c28d8558848dbda937bd750e920bb6f2
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\c3\c38dc6152f835691de783f93bbca4df7
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\c3\c38dc6152f835691de783f93bbca4df7
-    projectPath: Library\Artifacts\c3\c38dc6152f835691de783f93bbca4df7
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\c9\c9b0838b503f06dee74aba427906b7fb
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\c9\c9b0838b503f06dee74aba427906b7fb
-    projectPath: Library\Artifacts\c9\c9b0838b503f06dee74aba427906b7fb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\cb\cbbb8db4489d3ab625cb7580a2d1c8a5
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\cb\cbbb8db4489d3ab625cb7580a2d1c8a5
-    projectPath: Library\Artifacts\cb\cbbb8db4489d3ab625cb7580a2d1c8a5
+  - path: Library\Artifacts\63\63ec7e617464f0574edce67e0b7633ab
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\63\63ec7e617464f0574edce67e0b7633ab
+    projectPath: Library\Artifacts\63\63ec7e617464f0574edce67e0b7633ab
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\cd\cd3651a94c18b4898435103ba4d63000
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\cd\cd3651a94c18b4898435103ba4d63000
-    projectPath: Library\Artifacts\cd\cd3651a94c18b4898435103ba4d63000
+  - path: Library\Artifacts\64\64c02c790510bdb537e3c3128d4ead70
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\64\64c02c790510bdb537e3c3128d4ead70
+    projectPath: Library\Artifacts\64\64c02c790510bdb537e3c3128d4ead70
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\ce\cebe5fced72e87bc49955cef275e2e53
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\ce\cebe5fced72e87bc49955cef275e2e53
-    projectPath: Library\Artifacts\ce\cebe5fced72e87bc49955cef275e2e53
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\cf\cfd7b39853a621faf5b5a6c8e1a5ed54
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\cf\cfd7b39853a621faf5b5a6c8e1a5ed54
-    projectPath: Library\Artifacts\cf\cfd7b39853a621faf5b5a6c8e1a5ed54
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\d0\d01d408c748a58577247ef9221561d2e
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\d0\d01d408c748a58577247ef9221561d2e
-    projectPath: Library\Artifacts\d0\d01d408c748a58577247ef9221561d2e
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\d5\d57a95aa3b7d842a6113e673f37b9f2c
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\d5\d57a95aa3b7d842a6113e673f37b9f2c
-    projectPath: Library\Artifacts\d5\d57a95aa3b7d842a6113e673f37b9f2c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\d6\d67b05d822338a44a66ebd24acbbac97
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\d6\d67b05d822338a44a66ebd24acbbac97
-    projectPath: Library\Artifacts\d6\d67b05d822338a44a66ebd24acbbac97
+  - path: Library\Artifacts\67\6756625051bae23c784f197f619036ce
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\67\6756625051bae23c784f197f619036ce
+    projectPath: Library\Artifacts\67\6756625051bae23c784f197f619036ce
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\d6\d6d308cb44e91c3bf35d09978d702b12
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\d6\d6d308cb44e91c3bf35d09978d702b12
-    projectPath: Library\Artifacts\d6\d6d308cb44e91c3bf35d09978d702b12
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\d8\d88755ee618f4210eb0f3f0bf9cce742
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\d8\d88755ee618f4210eb0f3f0bf9cce742
-    projectPath: Library\Artifacts\d8\d88755ee618f4210eb0f3f0bf9cce742
+  - path: Library\Artifacts\69\6955bcfcb11008d3f8b17ed7e49a6811
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\69\6955bcfcb11008d3f8b17ed7e49a6811
+    projectPath: Library\Artifacts\69\6955bcfcb11008d3f8b17ed7e49a6811
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\dd\ddaff5d1bfaf71bc9d84b08ccbf8dd97
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\dd\ddaff5d1bfaf71bc9d84b08ccbf8dd97
-    projectPath: Library\Artifacts\dd\ddaff5d1bfaf71bc9d84b08ccbf8dd97
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\dd\ddf7c9510da4e022a80bb806d529481b
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\dd\ddf7c9510da4e022a80bb806d529481b
-    projectPath: Library\Artifacts\dd\ddf7c9510da4e022a80bb806d529481b
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\e1\e1c9079238a1e3dda01fab7973f154ff
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\e1\e1c9079238a1e3dda01fab7973f154ff
-    projectPath: Library\Artifacts\e1\e1c9079238a1e3dda01fab7973f154ff
+  - path: Library\Artifacts\6b\6b44ad39750b7e3d2eefb0966d672c27
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\6b\6b44ad39750b7e3d2eefb0966d672c27
+    projectPath: Library\Artifacts\6b\6b44ad39750b7e3d2eefb0966d672c27
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\e4\e4e2780ad97f52a7141678d746748827
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\e4\e4e2780ad97f52a7141678d746748827
-    projectPath: Library\Artifacts\e4\e4e2780ad97f52a7141678d746748827
+  - path: Library\Artifacts\6c\6cb5747ff7c2d16c126700ffac0d3e47
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\6c\6cb5747ff7c2d16c126700ffac0d3e47
+    projectPath: Library\Artifacts\6c\6cb5747ff7c2d16c126700ffac0d3e47
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\e5\e5fb3cd46e0da45994245eb044cb73f4
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\e5\e5fb3cd46e0da45994245eb044cb73f4
-    projectPath: Library\Artifacts\e5\e5fb3cd46e0da45994245eb044cb73f4
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\6d\6da5021b88dfa7cab5d96c466e1f0cc9
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\6d\6da5021b88dfa7cab5d96c466e1f0cc9
+    projectPath: Library\Artifacts\6d\6da5021b88dfa7cab5d96c466e1f0cc9
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\e7\e7c611079714627d260b387a07de2c6a
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\e7\e7c611079714627d260b387a07de2c6a
-    projectPath: Library\Artifacts\e7\e7c611079714627d260b387a07de2c6a
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\73\731f2a177e712202e491b988093ad230
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\73\731f2a177e712202e491b988093ad230
+    projectPath: Library\Artifacts\73\731f2a177e712202e491b988093ad230
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\e8\e8c65837a96ea61ad878fcc30e03c154
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\e8\e8c65837a96ea61ad878fcc30e03c154
-    projectPath: Library\Artifacts\e8\e8c65837a96ea61ad878fcc30e03c154
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\74\746fe3b8c036ebe7ec4056a3882666a4
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\74\746fe3b8c036ebe7ec4056a3882666a4
+    projectPath: Library\Artifacts\74\746fe3b8c036ebe7ec4056a3882666a4
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\ea\eaf3c3a83730a2124e4dac13eb2d4570
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\ea\eaf3c3a83730a2124e4dac13eb2d4570
-    projectPath: Library\Artifacts\ea\eaf3c3a83730a2124e4dac13eb2d4570
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\7c\7c4aeacb55b5d61c371938bdb5a12c7d
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\7c\7c4aeacb55b5d61c371938bdb5a12c7d
+    projectPath: Library\Artifacts\7c\7c4aeacb55b5d61c371938bdb5a12c7d
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\ee\eeccbe43fc0b761e1dd655966ff95399
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\ee\eeccbe43fc0b761e1dd655966ff95399
-    projectPath: Library\Artifacts\ee\eeccbe43fc0b761e1dd655966ff95399
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\81\815b8cbd5af46593cb3fdba93006e573
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\81\815b8cbd5af46593cb3fdba93006e573
+    projectPath: Library\Artifacts\81\815b8cbd5af46593cb3fdba93006e573
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\ef\ef98a5c6cecae7d31de0c5b133836d32
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\ef\ef98a5c6cecae7d31de0c5b133836d32
-    projectPath: Library\Artifacts\ef\ef98a5c6cecae7d31de0c5b133836d32
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\83\8321b84458e2f2d3b27a59c64922c5ca
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\83\8321b84458e2f2d3b27a59c64922c5ca
+    projectPath: Library\Artifacts\83\8321b84458e2f2d3b27a59c64922c5ca
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\f0\f024d332a099a754f1ee73d008dc057d
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\f0\f024d332a099a754f1ee73d008dc057d
-    projectPath: Library\Artifacts\f0\f024d332a099a754f1ee73d008dc057d
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\83\83d9885a83734345fa03c08d64e0a40e
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\83\83d9885a83734345fa03c08d64e0a40e
+    projectPath: Library\Artifacts\83\83d9885a83734345fa03c08d64e0a40e
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\f1\f10decfc38f6e3d68ee0eb693097b279
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\f1\f10decfc38f6e3d68ee0eb693097b279
-    projectPath: Library\Artifacts\f1\f10decfc38f6e3d68ee0eb693097b279
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\88\8880763556549e278642356117965e94
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\88\8880763556549e278642356117965e94
+    projectPath: Library\Artifacts\88\8880763556549e278642356117965e94
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\f1\f1d0f65452ef88603b5d90346cb3eb95
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\f1\f1d0f65452ef88603b5d90346cb3eb95
-    projectPath: Library\Artifacts\f1\f1d0f65452ef88603b5d90346cb3eb95
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\8a\8a2ce9acb86b0437d89ea37d6680bb25
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\8a\8a2ce9acb86b0437d89ea37d6680bb25
+    projectPath: Library\Artifacts\8a\8a2ce9acb86b0437d89ea37d6680bb25
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\f8\f8eaf124e84699d1f331a95d15748f56
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\f8\f8eaf124e84699d1f331a95d15748f56
-    projectPath: Library\Artifacts\f8\f8eaf124e84699d1f331a95d15748f56
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\8b\8b42125b7ac6af061366a7cdc134af47
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\8b\8b42125b7ac6af061366a7cdc134af47
+    projectPath: Library\Artifacts\8b\8b42125b7ac6af061366a7cdc134af47
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\fb\fb307844580b49ca4a8b08628c7b1949
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\fb\fb307844580b49ca4a8b08628c7b1949
-    projectPath: Library\Artifacts\fb\fb307844580b49ca4a8b08628c7b1949
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\8c\8c8f0a3bbf3162c15e52c6043cc690cf
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\8c\8c8f0a3bbf3162c15e52c6043cc690cf
+    projectPath: Library\Artifacts\8c\8c8f0a3bbf3162c15e52c6043cc690cf
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\fd\fd2d2cbd37c334137cfc3cab34dff08e
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\fd\fd2d2cbd37c334137cfc3cab34dff08e
-    projectPath: Library\Artifacts\fd\fd2d2cbd37c334137cfc3cab34dff08e
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\8f\8f4cb40f63798a6f604c3af528a8dafd
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\8f\8f4cb40f63798a6f604c3af528a8dafd
+    projectPath: Library\Artifacts\8f\8f4cb40f63798a6f604c3af528a8dafd
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\fe\fe408b1b5c9193772665a979fecdf5fe
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\fe\fe408b1b5c9193772665a979fecdf5fe
-    projectPath: Library\Artifacts\fe\fe408b1b5c9193772665a979fecdf5fe
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\92\920481b6978e55fad5caeb5eed8ffb09
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\92\920481b6978e55fad5caeb5eed8ffb09
+    projectPath: Library\Artifacts\92\920481b6978e55fad5caeb5eed8ffb09
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\fe\fe77cfad037851322cf91503181f0c93
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\fe\fe77cfad037851322cf91503181f0c93
-    projectPath: Library\Artifacts\fe\fe77cfad037851322cf91503181f0c93
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\92\92125ba0e8cb3eb11f71777dacd3b71c
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\92\92125ba0e8cb3eb11f71777dacd3b71c
+    projectPath: Library\Artifacts\92\92125ba0e8cb3eb11f71777dacd3b71c
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\CurrentLayout-default.dwlt
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\CurrentLayout-default.dwlt
-    projectPath: Library\CurrentLayout-default.dwlt
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\94\94961c55652c7559225818fa41dcb5f0
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\94\94961c55652c7559225818fa41dcb5f0
+    projectPath: Library\Artifacts\94\94961c55652c7559225818fa41dcb5f0
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\94\94978bae7f788867b3f49e93483db7e4
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\94\94978bae7f788867b3f49e93483db7e4
+    projectPath: Library\Artifacts\94\94978bae7f788867b3f49e93483db7e4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\95\952c8bcd299f3f8e8a8e1001d19b6c5b
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\95\952c8bcd299f3f8e8a8e1001d19b6c5b
+    projectPath: Library\Artifacts\95\952c8bcd299f3f8e8a8e1001d19b6c5b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\95\9535b29bfd211701c9b026ebbb00e022
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\95\9535b29bfd211701c9b026ebbb00e022
+    projectPath: Library\Artifacts\95\9535b29bfd211701c9b026ebbb00e022
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\95\95d809c8283a74799bd3bf32b343e3f5
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\95\95d809c8283a74799bd3bf32b343e3f5
+    projectPath: Library\Artifacts\95\95d809c8283a74799bd3bf32b343e3f5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\ac\aced86174c4762ab0f2fe6875799aba9
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\ac\aced86174c4762ab0f2fe6875799aba9
+    projectPath: Library\Artifacts\ac\aced86174c4762ab0f2fe6875799aba9
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\b1\b17152e6bb080e30b65c029750e88910
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\b1\b17152e6bb080e30b65c029750e88910
+    projectPath: Library\Artifacts\b1\b17152e6bb080e30b65c029750e88910
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\b4\b42a537a30f36d22a4892b4c81186001
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\b4\b42a537a30f36d22a4892b4c81186001
+    projectPath: Library\Artifacts\b4\b42a537a30f36d22a4892b4c81186001
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\b5\b54c495d210cd68398b08bb9791b1f60
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\b5\b54c495d210cd68398b08bb9791b1f60
+    projectPath: Library\Artifacts\b5\b54c495d210cd68398b08bb9791b1f60
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\b8\b806962b7aad31e2de47db668c7578cb
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\b8\b806962b7aad31e2de47db668c7578cb
+    projectPath: Library\Artifacts\b8\b806962b7aad31e2de47db668c7578cb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\c7\c7ba45a3f4655391653ff1726a9e23f8
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\c7\c7ba45a3f4655391653ff1726a9e23f8
+    projectPath: Library\Artifacts\c7\c7ba45a3f4655391653ff1726a9e23f8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\d4\d4abe11bbed9daddd0009a98b1183d5d
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\d4\d4abe11bbed9daddd0009a98b1183d5d
+    projectPath: Library\Artifacts\d4\d4abe11bbed9daddd0009a98b1183d5d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\e4\e43d8a66685971fb0c1611512054b303
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\e4\e43d8a66685971fb0c1611512054b303
+    projectPath: Library\Artifacts\e4\e43d8a66685971fb0c1611512054b303
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\e7\e7676eb48693d50c297fc0279ff5eb5e
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\e7\e7676eb48693d50c297fc0279ff5eb5e
+    projectPath: Library\Artifacts\e7\e7676eb48693d50c297fc0279ff5eb5e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\e7\e77f18841086c5b11fa0af69259bba35
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\e7\e77f18841086c5b11fa0af69259bba35
+    projectPath: Library\Artifacts\e7\e77f18841086c5b11fa0af69259bba35
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\ef\ef2b59195c023dc64367bc60a292c690
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\ef\ef2b59195c023dc64367bc60a292c690
+    projectPath: Library\Artifacts\ef\ef2b59195c023dc64367bc60a292c690
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\f1\f1e1c867e99bd662295a68ed55a3cbfa
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\f1\f1e1c867e99bd662295a68ed55a3cbfa
+    projectPath: Library\Artifacts\f1\f1e1c867e99bd662295a68ed55a3cbfa
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\f3\f3d312488c3c17be87766ae108365021
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\f3\f3d312488c3c17be87766ae108365021
+    projectPath: Library\Artifacts\f3\f3d312488c3c17be87766ae108365021
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\f6\f6d57c8c95f013ef67201579fbf478fe
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\f6\f6d57c8c95f013ef67201579fbf478fe
+    projectPath: Library\Artifacts\f6\f6d57c8c95f013ef67201579fbf478fe
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\f7\f7e5ee56ba6ad888cb74d6c45a710b85
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\f7\f7e5ee56ba6ad888cb74d6c45a710b85
+    projectPath: Library\Artifacts\f7\f7e5ee56ba6ad888cb74d6c45a710b85
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\f8\f83c73eba1ce699033232b506ec3139d
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\f8\f83c73eba1ce699033232b506ec3139d
+    projectPath: Library\Artifacts\f8\f83c73eba1ce699033232b506ec3139d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\f9\f9192501fefb1d21d02f7a048b87db35
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\f9\f9192501fefb1d21d02f7a048b87db35
+    projectPath: Library\Artifacts\f9\f9192501fefb1d21d02f7a048b87db35
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\fa\faabd38e6ab81c41ea7f7e2e195462c1
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\fa\faabd38e6ab81c41ea7f7e2e195462c1
+    projectPath: Library\Artifacts\fa\faabd38e6ab81c41ea7f7e2e195462c1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\fc\fccd74d88addb6c6e99ae286f093db8d
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\fc\fccd74d88addb6c6e99ae286f093db8d
+    projectPath: Library\Artifacts\fc\fccd74d88addb6c6e99ae286f093db8d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\fd\fdacdfee88004ee757ab4f86a331bcdd
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\fd\fdacdfee88004ee757ab4f86a331bcdd
+    projectPath: Library\Artifacts\fd\fdacdfee88004ee757ab4f86a331bcdd
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\ff\ff2db937650fd896fc289ba79904b349
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\Artifacts\ff\ff2db937650fd896fc289ba79904b349
+    projectPath: Library\Artifacts\ff\ff2db937650fd896fc289ba79904b349
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\EditorInstance.json
     fullPath: C:\Softwares\UnityProjects\SRPproject\Library\EditorInstance.json
     projectPath: Library\EditorInstance.json
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\expandedItems
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\expandedItems
-    projectPath: Library\expandedItems
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\gfu\cache\branches.yaml
     fullPath: C:\Softwares\UnityProjects\SRPproject\Library\gfu\cache\branches.yaml
     projectPath: Library\gfu\cache\branches.yaml
@@ -998,8 +578,8 @@ MonoBehaviour:
     fullPath: C:\Softwares\UnityProjects\SRPproject\Library\gfu\cache\gitlog.yaml
     projectPath: Library\gfu\cache\gitlog.yaml
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\gfu\cache\gitstatusentries.yaml
     fullPath: C:\Softwares\UnityProjects\SRPproject\Library\gfu\cache\gitstatusentries.yaml
     projectPath: Library\gfu\cache\gitstatusentries.yaml
@@ -1012,21 +592,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\gfu\cache\gituser.yaml
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\gfu\cache\gituser.yaml
-    projectPath: Library\gfu\cache\gituser.yaml
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\gfu\cache\repoinfo.yaml
     fullPath: C:\Softwares\UnityProjects\SRPproject\Library\gfu\cache\repoinfo.yaml
     projectPath: Library\gfu\cache\repoinfo.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\InspectorExpandedItems.asset
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\InspectorExpandedItems.asset
-    projectPath: Library\InspectorExpandedItems.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -1054,405 +622,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor.pdb
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\ScriptAssemblies\Assembly-CSharp-Editor.pdb
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\com.unity.multiplayer-hlapi.Editor.dll
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\ScriptAssemblies\com.unity.multiplayer-hlapi.Editor.dll
-    projectPath: Library\ScriptAssemblies\com.unity.multiplayer-hlapi.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\com.unity.multiplayer-hlapi.Editor.pdb
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\ScriptAssemblies\com.unity.multiplayer-hlapi.Editor.pdb
-    projectPath: Library\ScriptAssemblies\com.unity.multiplayer-hlapi.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\com.unity.multiplayer-hlapi.Runtime.dll
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\ScriptAssemblies\com.unity.multiplayer-hlapi.Runtime.dll
-    projectPath: Library\ScriptAssemblies\com.unity.multiplayer-hlapi.Runtime.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\com.unity.multiplayer-hlapi.Runtime.pdb
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\ScriptAssemblies\com.unity.multiplayer-hlapi.Runtime.pdb
-    projectPath: Library\ScriptAssemblies\com.unity.multiplayer-hlapi.Runtime.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\com.unity.multiplayer-weaver.Editor.dll
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\ScriptAssemblies\com.unity.multiplayer-weaver.Editor.dll
-    projectPath: Library\ScriptAssemblies\com.unity.multiplayer-weaver.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\com.unity.multiplayer-weaver.Editor.pdb
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\ScriptAssemblies\com.unity.multiplayer-weaver.Editor.pdb
-    projectPath: Library\ScriptAssemblies\com.unity.multiplayer-weaver.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
-    projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.pdb
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.pdb
-    projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
-    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.Rider.Editor.dll
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.Rider.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.Rider.Editor.pdb
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\ScriptAssemblies\Unity.Rider.Editor.pdb
-    projectPath: Library\ScriptAssemblies\Unity.Rider.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.TextMeshPro.dll
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
-    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.TextMeshPro.pdb
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\ScriptAssemblies\Unity.TextMeshPro.pdb
-    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.Timeline.dll
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\ScriptAssemblies\Unity.Timeline.dll
-    projectPath: Library\ScriptAssemblies\Unity.Timeline.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.Timeline.Editor.pdb
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\ScriptAssemblies\Unity.Timeline.Editor.pdb
-    projectPath: Library\ScriptAssemblies\Unity.Timeline.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.Timeline.pdb
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\ScriptAssemblies\Unity.Timeline.pdb
-    projectPath: Library\ScriptAssemblies\Unity.Timeline.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.VSCode.Editor.pdb
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\ScriptAssemblies\Unity.VSCode.Editor.pdb
-    projectPath: Library\ScriptAssemblies\Unity.VSCode.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\UnityEditor.Purchasing.dll
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\ScriptAssemblies\UnityEditor.Purchasing.dll
-    projectPath: Library\ScriptAssemblies\UnityEditor.Purchasing.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\UnityEditor.Purchasing.pdb
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\ScriptAssemblies\UnityEditor.Purchasing.pdb
-    projectPath: Library\ScriptAssemblies\UnityEditor.Purchasing.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
-    projectPath: Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\UnityEditor.SpatialTracking.pdb
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\ScriptAssemblies\UnityEditor.SpatialTracking.pdb
-    projectPath: Library\ScriptAssemblies\UnityEditor.SpatialTracking.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-    projectPath: Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\UnityEditor.TestRunner.pdb
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\ScriptAssemblies\UnityEditor.TestRunner.pdb
-    projectPath: Library\ScriptAssemblies\UnityEditor.TestRunner.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\UnityEditor.UI.dll
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\ScriptAssemblies\UnityEditor.UI.dll
-    projectPath: Library\ScriptAssemblies\UnityEditor.UI.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
-    projectPath: Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.pdb
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.pdb
-    projectPath: Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\UnityEngine.Advertisements.dll
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\ScriptAssemblies\UnityEngine.Advertisements.dll
-    projectPath: Library\ScriptAssemblies\UnityEngine.Advertisements.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\UnityEngine.Advertisements.Editor.dll
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\ScriptAssemblies\UnityEngine.Advertisements.Editor.dll
-    projectPath: Library\ScriptAssemblies\UnityEngine.Advertisements.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\UnityEngine.Advertisements.Editor.pdb
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\ScriptAssemblies\UnityEngine.Advertisements.Editor.pdb
-    projectPath: Library\ScriptAssemblies\UnityEngine.Advertisements.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\UnityEngine.Advertisements.pdb
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\ScriptAssemblies\UnityEngine.Advertisements.pdb
-    projectPath: Library\ScriptAssemblies\UnityEngine.Advertisements.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\UnityEngine.Monetization.dll
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\ScriptAssemblies\UnityEngine.Monetization.dll
-    projectPath: Library\ScriptAssemblies\UnityEngine.Monetization.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\UnityEngine.Monetization.pdb
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\ScriptAssemblies\UnityEngine.Monetization.pdb
-    projectPath: Library\ScriptAssemblies\UnityEngine.Monetization.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\UnityEngine.Purchasing.dll
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\ScriptAssemblies\UnityEngine.Purchasing.dll
-    projectPath: Library\ScriptAssemblies\UnityEngine.Purchasing.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\UnityEngine.Purchasing.pdb
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\ScriptAssemblies\UnityEngine.Purchasing.pdb
-    projectPath: Library\ScriptAssemblies\UnityEngine.Purchasing.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
-    projectPath: Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\UnityEngine.SpatialTracking.pdb
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\ScriptAssemblies\UnityEngine.SpatialTracking.pdb
-    projectPath: Library\ScriptAssemblies\UnityEngine.SpatialTracking.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-    projectPath: Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\UnityEngine.TestRunner.pdb
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\ScriptAssemblies\UnityEngine.TestRunner.pdb
-    projectPath: Library\ScriptAssemblies\UnityEngine.TestRunner.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\UnityEngine.UI.dll
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\ScriptAssemblies\UnityEngine.UI.dll
-    projectPath: Library\ScriptAssemblies\UnityEngine.UI.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
-    projectPath: Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.pdb
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.pdb
-    projectPath: Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ShaderCache\0\0083c828eaa37afaf4247edfd74b02bd.bin
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\ShaderCache\0\0083c828eaa37afaf4247edfd74b02bd.bin
-    projectPath: Library\ShaderCache\0\0083c828eaa37afaf4247edfd74b02bd.bin
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\ShaderCache\1\1b4c990439726d7a444a48ab56d3e54d.bin
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\ShaderCache\1\1b4c990439726d7a444a48ab56d3e54d.bin
-    projectPath: Library\ShaderCache\1\1b4c990439726d7a444a48ab56d3e54d.bin
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\ShaderCache\4\409cdcf700121b4e66c04b8ed84c5cf9.bin
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\ShaderCache\4\409cdcf700121b4e66c04b8ed84c5cf9.bin
-    projectPath: Library\ShaderCache\4\409cdcf700121b4e66c04b8ed84c5cf9.bin
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\ShaderCache\5\591a820ee59cc2e83ccf0882a088a092.bin
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\ShaderCache\5\591a820ee59cc2e83ccf0882a088a092.bin
-    projectPath: Library\ShaderCache\5\591a820ee59cc2e83ccf0882a088a092.bin
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\ShaderCache\7\70a383b3e1e4cdae7fb2c88695611453.bin
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\ShaderCache\7\70a383b3e1e4cdae7fb2c88695611453.bin
-    projectPath: Library\ShaderCache\7\70a383b3e1e4cdae7fb2c88695611453.bin
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\ShaderCache\8\82469de4cd57e79b655277b7711b70db.bin
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\ShaderCache\8\82469de4cd57e79b655277b7711b70db.bin
-    projectPath: Library\ShaderCache\8\82469de4cd57e79b655277b7711b70db.bin
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\ShaderCache\9\90a21eb201e2d8547f3bc96b4901fdd0.bin
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\ShaderCache\9\90a21eb201e2d8547f3bc96b4901fdd0.bin
-    projectPath: Library\ShaderCache\9\90a21eb201e2d8547f3bc96b4901fdd0.bin
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\ShaderCache\b\b81a7a3e3fd56b23e2206090c1f24b00.bin
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\ShaderCache\b\b81a7a3e3fd56b23e2206090c1f24b00.bin
-    projectPath: Library\ShaderCache\b\b81a7a3e3fd56b23e2206090c1f24b00.bin
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\ShaderCache\c\c78b5b91774dc2d60c2faf95e138f2ba.bin
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\ShaderCache\c\c78b5b91774dc2d60c2faf95e138f2ba.bin
-    projectPath: Library\ShaderCache\c\c78b5b91774dc2d60c2faf95e138f2ba.bin
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\ShaderCache\e\e64f597361b41ac52ede0fbd2ac9f8a3.bin
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\ShaderCache\e\e64f597361b41ac52ede0fbd2ac9f8a3.bin
-    projectPath: Library\ShaderCache\e\e64f597361b41ac52ede0fbd2ac9f8a3.bin
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\ShaderCache\EditorEncounteredVariants
     fullPath: C:\Softwares\UnityProjects\SRPproject\Library\ShaderCache\EditorEncounteredVariants
     projectPath: Library\ShaderCache\EditorEncounteredVariants
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\shadercompiler-UnityShaderCompiler.exe0.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\shadercompiler-UnityShaderCompiler.exe1.log
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\shadercompiler-UnityShaderCompiler.exe1.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe1.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\shadercompiler-UnityShaderCompiler.exe2.log
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\shadercompiler-UnityShaderCompiler.exe2.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe2.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\shadercompiler-UnityShaderCompiler.exe3.log
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\shadercompiler-UnityShaderCompiler.exe3.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe3.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\shadercompiler-UnityShaderCompiler.exe4.log
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\shadercompiler-UnityShaderCompiler.exe4.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe4.log
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -1484,6 +656,12 @@ MonoBehaviour:
     fullPath: C:\Softwares\UnityProjects\SRPproject\Library\StateCache\Hierarchy\cf64a5-bd8933784028fe749b.json
     projectPath: Library\StateCache\Hierarchy\cf64a5-bd8933784028fe749b.json
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\StateCache\Hierarchy\cf64a5-f0442c2a7a065e54b9.json
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\StateCache\Hierarchy\cf64a5-f0442c2a7a065e54b9.json
+    projectPath: Library\StateCache\Hierarchy\cf64a5-f0442c2a7a065e54b9.json
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: Library\StateCache\Hierarchy\cf64a5-mainStage.json
@@ -1496,6 +674,12 @@ MonoBehaviour:
     fullPath: C:\Softwares\UnityProjects\SRPproject\Library\StateCache\SceneView\6d27a7-bd8933784028fe749b.json
     projectPath: Library\StateCache\SceneView\6d27a7-bd8933784028fe749b.json
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\StateCache\SceneView\6d27a7-f0442c2a7a065e54b9.json
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\StateCache\SceneView\6d27a7-f0442c2a7a065e54b9.json
+    projectPath: Library\StateCache\SceneView\6d27a7-f0442c2a7a065e54b9.json
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: Library\StateCache\SceneView\6d27a7-mainStage.json
@@ -1504,39 +688,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\UIElements\EditorWindows\UnityEditor.PackageManager.UI.PackageManagerWindow.pref
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Library\UIElements\EditorWindows\UnityEditor.PackageManager.UI.PackageManagerWindow.pref
-    projectPath: Library\UIElements\EditorWindows\UnityEditor.PackageManager.UI.PackageManagerWindow.pref
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    fullPath: C:\Softwares\UnityProjects\SRPproject\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
-    fullPath: C:\Softwares\UnityProjects\SRPproject\obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    fullPath: C:\Softwares\UnityProjects\SRPproject\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
-    fullPath: C:\Softwares\UnityProjects\SRPproject\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
-    projectPath: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: SRPproject.sln
-    fullPath: C:\Softwares\UnityProjects\SRPproject\SRPproject.sln
-    projectPath: SRPproject.sln
+  - path: Temp\__Backupscenes\0.backup
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\__Backupscenes\0.backup
+    projectPath: Temp\__Backupscenes\0.backup
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -1552,39 +706,591 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-46b4d1545812d614a96a15bb8ed8d4a1
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-46b4d1545812d614a96a15bb8ed8d4a1
-    projectPath: Temp\UnityTempFile-46b4d1545812d614a96a15bb8ed8d4a1
+  - path: Temp\UnityTempFile-06f11ae9eec59984aa8f34b096f9400e
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-06f11ae9eec59984aa8f34b096f9400e
+    projectPath: Temp\UnityTempFile-06f11ae9eec59984aa8f34b096f9400e
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-71003caf657c36c40a7e51e1ca72f869
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-71003caf657c36c40a7e51e1ca72f869
-    projectPath: Temp\UnityTempFile-71003caf657c36c40a7e51e1ca72f869
+  - path: Temp\UnityTempFile-0a1f9746cad691b4d9f710f22de6a482
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-0a1f9746cad691b4d9f710f22de6a482
+    projectPath: Temp\UnityTempFile-0a1f9746cad691b4d9f710f22de6a482
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-a56993687a3a98542bcbcf23ff550da4
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-a56993687a3a98542bcbcf23ff550da4
-    projectPath: Temp\UnityTempFile-a56993687a3a98542bcbcf23ff550da4
+  - path: Temp\UnityTempFile-0e04c79821d08814399ae17a5526ebe4
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-0e04c79821d08814399ae17a5526ebe4
+    projectPath: Temp\UnityTempFile-0e04c79821d08814399ae17a5526ebe4
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-b2804b4fd9a26524891661543b07f5e0
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-b2804b4fd9a26524891661543b07f5e0
-    projectPath: Temp\UnityTempFile-b2804b4fd9a26524891661543b07f5e0
+  - path: Temp\UnityTempFile-0f410ac09d62f8f46873681043f19bf0
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-0f410ac09d62f8f46873681043f19bf0
+    projectPath: Temp\UnityTempFile-0f410ac09d62f8f46873681043f19bf0
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-d997a7e671370a84aac98f96f0a7830e
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-d997a7e671370a84aac98f96f0a7830e
-    projectPath: Temp\UnityTempFile-d997a7e671370a84aac98f96f0a7830e
+  - path: Temp\UnityTempFile-131976340a6547e4fb6982d206a8ac45
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-131976340a6547e4fb6982d206a8ac45
+    projectPath: Temp\UnityTempFile-131976340a6547e4fb6982d206a8ac45
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-dd033200c4ec15b42a057e2579931bb9
-    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-dd033200c4ec15b42a057e2579931bb9
-    projectPath: Temp\UnityTempFile-dd033200c4ec15b42a057e2579931bb9
+  - path: Temp\UnityTempFile-13a8c077f61f74d4e99663245d1c5543
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-13a8c077f61f74d4e99663245d1c5543
+    projectPath: Temp\UnityTempFile-13a8c077f61f74d4e99663245d1c5543
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-180072be22a62fc44b0f97edbff3032c
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-180072be22a62fc44b0f97edbff3032c
+    projectPath: Temp\UnityTempFile-180072be22a62fc44b0f97edbff3032c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-1b48ef26b3103a94a8ff2d7145a0044e
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-1b48ef26b3103a94a8ff2d7145a0044e
+    projectPath: Temp\UnityTempFile-1b48ef26b3103a94a8ff2d7145a0044e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-1b836e183214a8d499fa0ca54a183c33
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-1b836e183214a8d499fa0ca54a183c33
+    projectPath: Temp\UnityTempFile-1b836e183214a8d499fa0ca54a183c33
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-1d1ffb473916e7c4bae722e6daefdc6b
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-1d1ffb473916e7c4bae722e6daefdc6b
+    projectPath: Temp\UnityTempFile-1d1ffb473916e7c4bae722e6daefdc6b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-1f9651673c3e1784eb450a11791cd240
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-1f9651673c3e1784eb450a11791cd240
+    projectPath: Temp\UnityTempFile-1f9651673c3e1784eb450a11791cd240
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-27fb75e350ba1ac419fef3a95d81fcbc
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-27fb75e350ba1ac419fef3a95d81fcbc
+    projectPath: Temp\UnityTempFile-27fb75e350ba1ac419fef3a95d81fcbc
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-28bf2eeebce2ba0468f6692fe1227fc2
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-28bf2eeebce2ba0468f6692fe1227fc2
+    projectPath: Temp\UnityTempFile-28bf2eeebce2ba0468f6692fe1227fc2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-2c8a65da0c67800479b22dccd07bca4d
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-2c8a65da0c67800479b22dccd07bca4d
+    projectPath: Temp\UnityTempFile-2c8a65da0c67800479b22dccd07bca4d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-31b267a19cf7a9a48b6ead3d0d06c5bb
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-31b267a19cf7a9a48b6ead3d0d06c5bb
+    projectPath: Temp\UnityTempFile-31b267a19cf7a9a48b6ead3d0d06c5bb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-36af7632eefdfad4e83f7939466caef0
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-36af7632eefdfad4e83f7939466caef0
+    projectPath: Temp\UnityTempFile-36af7632eefdfad4e83f7939466caef0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-37aac4c4e4044774ca291b85207921bd
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-37aac4c4e4044774ca291b85207921bd
+    projectPath: Temp\UnityTempFile-37aac4c4e4044774ca291b85207921bd
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-3a3ee12d02161ee468eb46cbf23a630e
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-3a3ee12d02161ee468eb46cbf23a630e
+    projectPath: Temp\UnityTempFile-3a3ee12d02161ee468eb46cbf23a630e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-3a7dd8be94833e4459de1be6b3492170
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-3a7dd8be94833e4459de1be6b3492170
+    projectPath: Temp\UnityTempFile-3a7dd8be94833e4459de1be6b3492170
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-3b227bdc9cd70534e9d014fcc1cec93f
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-3b227bdc9cd70534e9d014fcc1cec93f
+    projectPath: Temp\UnityTempFile-3b227bdc9cd70534e9d014fcc1cec93f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-3c4cb1f1ac17e334ba209aef15dbf4e9
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-3c4cb1f1ac17e334ba209aef15dbf4e9
+    projectPath: Temp\UnityTempFile-3c4cb1f1ac17e334ba209aef15dbf4e9
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-3e36840c106b57c4aa601b7104a97e18
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-3e36840c106b57c4aa601b7104a97e18
+    projectPath: Temp\UnityTempFile-3e36840c106b57c4aa601b7104a97e18
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-3fcade9e668a48c42b6dcefb646a3047
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-3fcade9e668a48c42b6dcefb646a3047
+    projectPath: Temp\UnityTempFile-3fcade9e668a48c42b6dcefb646a3047
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-40c584c2ee59c1b45926b34eebe77632
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-40c584c2ee59c1b45926b34eebe77632
+    projectPath: Temp\UnityTempFile-40c584c2ee59c1b45926b34eebe77632
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-4719faa0b7d7274469a35c0f454e8f44
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-4719faa0b7d7274469a35c0f454e8f44
+    projectPath: Temp\UnityTempFile-4719faa0b7d7274469a35c0f454e8f44
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-478f0043039b48940afb3421de8b8235
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-478f0043039b48940afb3421de8b8235
+    projectPath: Temp\UnityTempFile-478f0043039b48940afb3421de8b8235
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-4a7033369f77df9458202fe83b8b369a
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-4a7033369f77df9458202fe83b8b369a
+    projectPath: Temp\UnityTempFile-4a7033369f77df9458202fe83b8b369a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-4f40b4d4851e1e04fa8495dc41966345
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-4f40b4d4851e1e04fa8495dc41966345
+    projectPath: Temp\UnityTempFile-4f40b4d4851e1e04fa8495dc41966345
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-506c06ee4e4c5ce46addb91fbb3fcc9f
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-506c06ee4e4c5ce46addb91fbb3fcc9f
+    projectPath: Temp\UnityTempFile-506c06ee4e4c5ce46addb91fbb3fcc9f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-55c4cb816d8b19d40b74550b03bbdda6
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-55c4cb816d8b19d40b74550b03bbdda6
+    projectPath: Temp\UnityTempFile-55c4cb816d8b19d40b74550b03bbdda6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-56d208a700dc03b4e93802d601700137
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-56d208a700dc03b4e93802d601700137
+    projectPath: Temp\UnityTempFile-56d208a700dc03b4e93802d601700137
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-592f862576e901047b98922ae51d4f88
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-592f862576e901047b98922ae51d4f88
+    projectPath: Temp\UnityTempFile-592f862576e901047b98922ae51d4f88
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-5bff46d48fd34de4da9d27d55dcfca9c
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-5bff46d48fd34de4da9d27d55dcfca9c
+    projectPath: Temp\UnityTempFile-5bff46d48fd34de4da9d27d55dcfca9c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-5c8cb175b55a72b43a3dde7fc5cc026e
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-5c8cb175b55a72b43a3dde7fc5cc026e
+    projectPath: Temp\UnityTempFile-5c8cb175b55a72b43a3dde7fc5cc026e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-5f99201f937a50f438877912ea38efb4
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-5f99201f937a50f438877912ea38efb4
+    projectPath: Temp\UnityTempFile-5f99201f937a50f438877912ea38efb4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-62bd629398a619e4fac12abf5703ff54
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-62bd629398a619e4fac12abf5703ff54
+    projectPath: Temp\UnityTempFile-62bd629398a619e4fac12abf5703ff54
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-64201de251cfd684aa3cbf7168b038fa
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-64201de251cfd684aa3cbf7168b038fa
+    projectPath: Temp\UnityTempFile-64201de251cfd684aa3cbf7168b038fa
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-642203d346c5b4349b6b897ae57bbc83
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-642203d346c5b4349b6b897ae57bbc83
+    projectPath: Temp\UnityTempFile-642203d346c5b4349b6b897ae57bbc83
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-67676ca9e4e59be4f81cf97bc69d5ee7
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-67676ca9e4e59be4f81cf97bc69d5ee7
+    projectPath: Temp\UnityTempFile-67676ca9e4e59be4f81cf97bc69d5ee7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-67acc7b0ebf33c842a5f68608e5ed99d
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-67acc7b0ebf33c842a5f68608e5ed99d
+    projectPath: Temp\UnityTempFile-67acc7b0ebf33c842a5f68608e5ed99d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-6a029a1cb6eaa4b4683ce1cdd1c6920e
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-6a029a1cb6eaa4b4683ce1cdd1c6920e
+    projectPath: Temp\UnityTempFile-6a029a1cb6eaa4b4683ce1cdd1c6920e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-6c52e549528672642b0d6ae1dbdb3238
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-6c52e549528672642b0d6ae1dbdb3238
+    projectPath: Temp\UnityTempFile-6c52e549528672642b0d6ae1dbdb3238
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-6cb5c9bd7e5084241b8e3d26f161dfdc
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-6cb5c9bd7e5084241b8e3d26f161dfdc
+    projectPath: Temp\UnityTempFile-6cb5c9bd7e5084241b8e3d26f161dfdc
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-73d4e762c1f9a9e4c964ee93cb68c445
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-73d4e762c1f9a9e4c964ee93cb68c445
+    projectPath: Temp\UnityTempFile-73d4e762c1f9a9e4c964ee93cb68c445
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-747fc9ec625f59e42a3abfb72788dcf3
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-747fc9ec625f59e42a3abfb72788dcf3
+    projectPath: Temp\UnityTempFile-747fc9ec625f59e42a3abfb72788dcf3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-790517291db54f24dae3bd1bf509338a
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-790517291db54f24dae3bd1bf509338a
+    projectPath: Temp\UnityTempFile-790517291db54f24dae3bd1bf509338a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-793cee4543b9610419016f2bb2bc1ff2
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-793cee4543b9610419016f2bb2bc1ff2
+    projectPath: Temp\UnityTempFile-793cee4543b9610419016f2bb2bc1ff2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-7b3ac7b93ab2ec04fa5516efb48c6d0a
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-7b3ac7b93ab2ec04fa5516efb48c6d0a
+    projectPath: Temp\UnityTempFile-7b3ac7b93ab2ec04fa5516efb48c6d0a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-7d0d6ca3d6de8514e839f2e361ebed4c
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-7d0d6ca3d6de8514e839f2e361ebed4c
+    projectPath: Temp\UnityTempFile-7d0d6ca3d6de8514e839f2e361ebed4c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-7fd62094dd5282c46a52ea07293b9033
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-7fd62094dd5282c46a52ea07293b9033
+    projectPath: Temp\UnityTempFile-7fd62094dd5282c46a52ea07293b9033
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-85f1c9c4ecf407140b42f505f6881560
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-85f1c9c4ecf407140b42f505f6881560
+    projectPath: Temp\UnityTempFile-85f1c9c4ecf407140b42f505f6881560
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-86cf3f8972ebb054a8d89e0febcecce8
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-86cf3f8972ebb054a8d89e0febcecce8
+    projectPath: Temp\UnityTempFile-86cf3f8972ebb054a8d89e0febcecce8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-8c5f2193bffc73740b21a456dbfeb719
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-8c5f2193bffc73740b21a456dbfeb719
+    projectPath: Temp\UnityTempFile-8c5f2193bffc73740b21a456dbfeb719
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-8f95a2d36aa38514e91cd811aa0f74e9
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-8f95a2d36aa38514e91cd811aa0f74e9
+    projectPath: Temp\UnityTempFile-8f95a2d36aa38514e91cd811aa0f74e9
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-93e6043745172eb44ac1343a03d4a03b
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-93e6043745172eb44ac1343a03d4a03b
+    projectPath: Temp\UnityTempFile-93e6043745172eb44ac1343a03d4a03b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-957116ba36d852047b2ae061270f7121
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-957116ba36d852047b2ae061270f7121
+    projectPath: Temp\UnityTempFile-957116ba36d852047b2ae061270f7121
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-962e9510251455443984e641da7028d4
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-962e9510251455443984e641da7028d4
+    projectPath: Temp\UnityTempFile-962e9510251455443984e641da7028d4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-99e9f11bd4185e4489f166fdd5bfe09a
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-99e9f11bd4185e4489f166fdd5bfe09a
+    projectPath: Temp\UnityTempFile-99e9f11bd4185e4489f166fdd5bfe09a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-9a8bb5e90ded62245abe6c704d476f69
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-9a8bb5e90ded62245abe6c704d476f69
+    projectPath: Temp\UnityTempFile-9a8bb5e90ded62245abe6c704d476f69
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-9f062ad5760e5334dabee4d5d1871686
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-9f062ad5760e5334dabee4d5d1871686
+    projectPath: Temp\UnityTempFile-9f062ad5760e5334dabee4d5d1871686
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-9f38565d20b494c4fa385b85a8a4f5cd
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-9f38565d20b494c4fa385b85a8a4f5cd
+    projectPath: Temp\UnityTempFile-9f38565d20b494c4fa385b85a8a4f5cd
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-a03694f0266ce384b916c27f23ecb850
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-a03694f0266ce384b916c27f23ecb850
+    projectPath: Temp\UnityTempFile-a03694f0266ce384b916c27f23ecb850
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-a179c77e888578841b06558ed45f6d96
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-a179c77e888578841b06558ed45f6d96
+    projectPath: Temp\UnityTempFile-a179c77e888578841b06558ed45f6d96
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-a2d399515ce656747a8926837f80cbb2
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-a2d399515ce656747a8926837f80cbb2
+    projectPath: Temp\UnityTempFile-a2d399515ce656747a8926837f80cbb2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-a31bfbe8dbabc514c82ec1853e018741
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-a31bfbe8dbabc514c82ec1853e018741
+    projectPath: Temp\UnityTempFile-a31bfbe8dbabc514c82ec1853e018741
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-a54ca4c0a67520041a6033ec5f5b5f21
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-a54ca4c0a67520041a6033ec5f5b5f21
+    projectPath: Temp\UnityTempFile-a54ca4c0a67520041a6033ec5f5b5f21
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-a6462313eb63cf6459882b6db2dae22c
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-a6462313eb63cf6459882b6db2dae22c
+    projectPath: Temp\UnityTempFile-a6462313eb63cf6459882b6db2dae22c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-a6d8fbaa07d04ac4990ad6b8975caf88
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-a6d8fbaa07d04ac4990ad6b8975caf88
+    projectPath: Temp\UnityTempFile-a6d8fbaa07d04ac4990ad6b8975caf88
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-a89fa469ab6b13948bafb74f364df99d
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-a89fa469ab6b13948bafb74f364df99d
+    projectPath: Temp\UnityTempFile-a89fa469ab6b13948bafb74f364df99d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-baa884c32c3929d479aad4fe61064629
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-baa884c32c3929d479aad4fe61064629
+    projectPath: Temp\UnityTempFile-baa884c32c3929d479aad4fe61064629
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-c0d58ea94ed504d49a2d8b0bd93a6e65
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-c0d58ea94ed504d49a2d8b0bd93a6e65
+    projectPath: Temp\UnityTempFile-c0d58ea94ed504d49a2d8b0bd93a6e65
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-c1588bdc7b684c740892e275d0793906
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-c1588bdc7b684c740892e275d0793906
+    projectPath: Temp\UnityTempFile-c1588bdc7b684c740892e275d0793906
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-c3819a0f2ec948040b0e7165c8ea3d7f
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-c3819a0f2ec948040b0e7165c8ea3d7f
+    projectPath: Temp\UnityTempFile-c3819a0f2ec948040b0e7165c8ea3d7f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-c87a922616439d0498be320c50a4fb03
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-c87a922616439d0498be320c50a4fb03
+    projectPath: Temp\UnityTempFile-c87a922616439d0498be320c50a4fb03
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-ce444e2b39c4a0a41aa620009282fb05
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-ce444e2b39c4a0a41aa620009282fb05
+    projectPath: Temp\UnityTempFile-ce444e2b39c4a0a41aa620009282fb05
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-cf1df9f1aef99104c9bad61d658c8e3e
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-cf1df9f1aef99104c9bad61d658c8e3e
+    projectPath: Temp\UnityTempFile-cf1df9f1aef99104c9bad61d658c8e3e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-d11928007e6be1549bc2a34b48984d93
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-d11928007e6be1549bc2a34b48984d93
+    projectPath: Temp\UnityTempFile-d11928007e6be1549bc2a34b48984d93
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-d686efa8fe9a1aa40878ade8080f85c5
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-d686efa8fe9a1aa40878ade8080f85c5
+    projectPath: Temp\UnityTempFile-d686efa8fe9a1aa40878ade8080f85c5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-d69d323a17b7eed4eb7cf5b2b6154829
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-d69d323a17b7eed4eb7cf5b2b6154829
+    projectPath: Temp\UnityTempFile-d69d323a17b7eed4eb7cf5b2b6154829
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-da6c216833ef7684bbfdda31eb4a6480
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-da6c216833ef7684bbfdda31eb4a6480
+    projectPath: Temp\UnityTempFile-da6c216833ef7684bbfdda31eb4a6480
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-dd1349dbd411829409b8bf2e2037d506
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-dd1349dbd411829409b8bf2e2037d506
+    projectPath: Temp\UnityTempFile-dd1349dbd411829409b8bf2e2037d506
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-debe25c78be475c49a19fd7e2de636e5
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-debe25c78be475c49a19fd7e2de636e5
+    projectPath: Temp\UnityTempFile-debe25c78be475c49a19fd7e2de636e5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-e0a248abdc992744bb28727434c2dd61
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-e0a248abdc992744bb28727434c2dd61
+    projectPath: Temp\UnityTempFile-e0a248abdc992744bb28727434c2dd61
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-e21c0a92207acb84d987bc056658a499
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-e21c0a92207acb84d987bc056658a499
+    projectPath: Temp\UnityTempFile-e21c0a92207acb84d987bc056658a499
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-e3519dbe55900c948b261150f276daa4
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-e3519dbe55900c948b261150f276daa4
+    projectPath: Temp\UnityTempFile-e3519dbe55900c948b261150f276daa4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-e35d3497df0463443807854c190f8ad5
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-e35d3497df0463443807854c190f8ad5
+    projectPath: Temp\UnityTempFile-e35d3497df0463443807854c190f8ad5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-e535e17423bb5504e8ef532de4e573f7
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-e535e17423bb5504e8ef532de4e573f7
+    projectPath: Temp\UnityTempFile-e535e17423bb5504e8ef532de4e573f7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-e61b1e9a40c59b54681837215c09ee04
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-e61b1e9a40c59b54681837215c09ee04
+    projectPath: Temp\UnityTempFile-e61b1e9a40c59b54681837215c09ee04
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-e80f2691e38fc7643bcb046bc32caafc
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-e80f2691e38fc7643bcb046bc32caafc
+    projectPath: Temp\UnityTempFile-e80f2691e38fc7643bcb046bc32caafc
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-e894db62fbdf9764d95404a0450430cd
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-e894db62fbdf9764d95404a0450430cd
+    projectPath: Temp\UnityTempFile-e894db62fbdf9764d95404a0450430cd
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-e9c991b8a4112d649aedd33554db52af
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-e9c991b8a4112d649aedd33554db52af
+    projectPath: Temp\UnityTempFile-e9c991b8a4112d649aedd33554db52af
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-ecc3623ac06ca99428f6e7c33882472b
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-ecc3623ac06ca99428f6e7c33882472b
+    projectPath: Temp\UnityTempFile-ecc3623ac06ca99428f6e7c33882472b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-ecddd74d7fa8606459cb11eeb48c94ea
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-ecddd74d7fa8606459cb11eeb48c94ea
+    projectPath: Temp\UnityTempFile-ecddd74d7fa8606459cb11eeb48c94ea
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-ed730654199a9264182e5aa235b2b99f
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-ed730654199a9264182e5aa235b2b99f
+    projectPath: Temp\UnityTempFile-ed730654199a9264182e5aa235b2b99f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-f1af5d12a4299af469d427234f3f2d7f
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-f1af5d12a4299af469d427234f3f2d7f
+    projectPath: Temp\UnityTempFile-f1af5d12a4299af469d427234f3f2d7f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-f536b0ba93875f0469de06237d5cda54
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-f536b0ba93875f0469de06237d5cda54
+    projectPath: Temp\UnityTempFile-f536b0ba93875f0469de06237d5cda54
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-f54b7a51ab04c104aa8278ef7a490ebe
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-f54b7a51ab04c104aa8278ef7a490ebe
+    projectPath: Temp\UnityTempFile-f54b7a51ab04c104aa8278ef7a490ebe
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-ff5c7617a9fb8c943a7e46b13fb3b4cf
+    fullPath: C:\Softwares\UnityProjects\SRPproject\Temp\UnityTempFile-ff5c7617a9fb8c943a7e46b13fb3b4cf
+    projectPath: Temp\UnityTempFile-ff5c7617a9fb8c943a7e46b13fb3b4cf
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1

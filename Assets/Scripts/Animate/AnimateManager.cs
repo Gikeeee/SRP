@@ -26,12 +26,11 @@ public class AnimateManager : MonoBehaviour
 
     private float rotateSpeed = 10f;        //角色旋转速度
 
-    public string curRoleName = "Naoko";
+    public string curRoleName { private set { curRoleName = value; } get { return "Naoko"; }  }
 
     string catName = "Cat";
 
-    bool isCountingDown = false;
-    bool isCat = true;
+    bool isCat;
 
     private void Awake()
     {
@@ -40,6 +39,14 @@ public class AnimateManager : MonoBehaviour
             Instance = this;
         }
         DontDestroyOnLoad(this);
+
+        string path = "Role/" + catName;
+        PoolManager.GetInstance().GetGObj(path, (newRole) =>
+        {
+            animator = newRole.GetComponent<Animator>();
+            Debug.Log(animator.gameObject);
+            EventCenter.GetInstance().EventTrigger(MyEventType.GAMESTART);
+        });
     }
 
     private void Start()
@@ -49,16 +56,17 @@ public class AnimateManager : MonoBehaviour
         {
             AudioManager.GetInstance().SetBgVolume(0.2f);
         });
-        string path = "Role/" + catName;
-        PoolManager.GetInstance().GetGObj(path, (newRole) =>
-        {
-            animator = newRole.GetComponent<Animator>();
-            EventCenter.GetInstance().EventTrigger(MyEventType.GAMESTART);
-        });
+        //string path = "Role/" + curRoleName;
+        //PoolManager.GetInstance().GetGObj(path, (newRole) =>
+        //{
+        //    animator = newRole.GetComponent<Animator>();
+        //    Debug.Log(animator.gameObject);
+        //    EventCenter.GetInstance().EventTrigger(MyEventType.GAMESTART);
+        //});
         //注册启动动画事件
         //休眠和唤醒
-        EventCenter.GetInstance().AddEventListener(MyEventType.AWAKE, CatToGirl);
-        EventCenter.GetInstance().AddEventListener(MyEventType.SLEEP, GirlToCat);
+        EventCenter.GetInstance().AddEventListener(MyEventType.AWAKE, AWake);
+        EventCenter.GetInstance().AddEventListener(MyEventType.SLEEP, Sleep);
         //来自手势
         EventCenter.GetInstance().AddEventListener(MyEventType.YEAHGESTURE, DoYeah);
         EventCenter.GetInstance().AddEventListener<float>(MyEventType.ROTATEGESTURE, RotateRole);
@@ -80,25 +88,10 @@ public class AnimateManager : MonoBehaviour
         EventCenter.GetInstance().AddEventListener(MyEventType.UNHAPPY, UnDoHappy);
         EventCenter.GetInstance().AddEventListener(MyEventType.UNSAY, UnDoSay);
         
-    }
+        EventCenter.GetInstance().AddEventListener(MyEventType.GETWAVED, WaveForWhat);
 
-    private void Update()
-    {
-        //参数表示动画层的id
-        AnimatorStateInfo stateinfo = animator.GetCurrentAnimatorStateInfo(1);
-        if (!isCat && stateinfo.IsName("Idle") && !isCountingDown)
-        {
-            
-        }
+        isCat = true;
 
-
-    }
-
-    IEnumerator CountForSleep()
-    {
-        yield return new WaitForSecondsRealtime(8f);
-
-        EventCenter.GetInstance().EventTrigger(MyEventType.SLEEP);
     }
 
     /// <summary>
@@ -215,26 +208,33 @@ public class AnimateManager : MonoBehaviour
 
     #region 挥手动画
     /// <summary>
-    /// 挥手动作
+    /// 判断是🐱还是人
     /// </summary>
-    private void DoHi()
+    void WaveForWhat()
     {
         if (!isCat)
         {
-            if (!HaveAnimator()) return;
-            SetAnimatorParam("Hi", true);
+            EventCenter.GetInstance().EventTrigger(MyEventType.WAVEGESTURE);
         }
         else
         {
             EventCenter.GetInstance().EventTrigger(MyEventType.AWAKE);
         }
-        
+    }
+    /// <summary>
+    /// 挥手动作
+    /// </summary>
+    private void DoHi()
+    {
+
+        if (!HaveAnimator()) return;
+        SetAnimatorParam("Hi", true);
     }
 
-    /// <summary>
-    /// 结束挥手
-    /// </summary>
-    private void UnDoHi()
+/// <summary>
+/// 结束挥手
+/// </summary>
+private void UnDoHi()
     {
         if (!HaveAnimator()) return;
         SetAnimatorParam("Hi", false);
@@ -339,11 +339,30 @@ public class AnimateManager : MonoBehaviour
     #endregion
 
     #region 休眠（人变猫）
-    private void GirlToCat()
+    private void Sleep()
     {
         SetAnimatorParam("Hi", false);
         SetAnimatorParam("isGirlToCat", true);
-        isCat = true;
+        StartCoroutine(Wait());
+    }
+    IEnumerator Wait()
+    {
+        Debug.Log("frfr");
+        yield return new WaitForSeconds(4f);
+        GirlToCat();
+    }
+    void GirlToCat()
+    {
+        PoolManager.GetInstance().GetGObj("Role/"+catName, (newRole) =>
+        {
+            newRole.transform.parent = animator.transform.parent;
+            newRole.transform.position = animator.transform.position;
+            newRole.transform.localScale = animator.transform.localScale;
+            PoolManager.GetInstance().PushGObj(animator.gameObject.name, animator.gameObject);
+            SetAnimator(newRole.GetComponent<Animator>());
+            Debug.Log(GetStateInfo().fullPathHash);
+            isCat = true;
+        });
     }
     //IEnumerator AniThenChange_GtC(string path)
     //{  
@@ -358,15 +377,36 @@ public class AnimateManager : MonoBehaviour
     //        SetAnimator(newRole.GetComponent<Animator>());
     //    }); 
     //}
+
     #endregion
 
     #region 唤醒（猫变人）
-    private void CatToGirl()
+    private void AWake()
     {
         SetAnimatorParam("isCatToGirl", true);
-        isCat = false;
+        StartCoroutine(Wait2());
     }
-
+    IEnumerator Wait2()
+    {
+        Debug.Log("frfr");
+        yield return new WaitForSeconds(4f);
+        CatToGirl();
+    }
+    void CatToGirl()
+    {
+        Debug.Log(curRoleName);
+        string path = "Role/" + curRoleName;
+        PoolManager.GetInstance().GetGObj(path, (newRole) =>
+        {
+            newRole.transform.parent = animator.transform.parent;
+            newRole.transform.position = animator.transform.position;
+            newRole.transform.localScale = animator.transform.localScale;
+            PoolManager.GetInstance().PushGObj(animator.gameObject.name, animator.gameObject);
+            SetAnimator(newRole.GetComponent<Animator>());
+            isCat = false;
+            EventCenter.GetInstance().EventTrigger(MyEventType.WAVEGESTURE);
+        });
+    }
     //IEnumerator AniThenChange_CtG(string path)
     //{
     //    yield return new WaitForSeconds(2.5f);

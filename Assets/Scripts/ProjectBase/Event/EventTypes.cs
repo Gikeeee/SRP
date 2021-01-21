@@ -41,5 +41,7 @@ public static class MyEventType
     public static string UNYEAHGESTURE { get { return "UNYEAHGESTURE"; } }
     public static string UNWAVEGESTURE { get { return "UNWAVEGESTURE"; } }
     public static string UNBEATENGESTURE { get { return "UNBEATENGESTURE"; } }
+   
+    public static string GETWAVED { get { return "GETWAVED"; } }
     #endregion
 }

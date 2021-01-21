@@ -19,13 +19,15 @@ public class IdleBehaviour : StateMachineBehaviour
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        MonoManager.GetInstance().StopCoroutine(CountForSleep());
+        MonoManager.GetInstance().StopAllCoroutines();
     }
 
     IEnumerator CountForSleep()
     {
+        Debug.Log("开始计时");
         yield return new WaitForSecondsRealtime(8f);
         EventCenter.GetInstance().EventTrigger(MyEventType.SLEEP);
+        Debug.Log("完成");
     }
 
     // OnStateMove is called right after Animator.OnAnimatorMove()

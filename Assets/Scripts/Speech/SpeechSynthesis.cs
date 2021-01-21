@@ -148,7 +148,7 @@ public class SpeechSynthesis : MonoBehaviour
                 }
                 if (isListening)
                 {
-                    EventCenter.GetInstance().EventTrigger(MyEventType.WAVEGESTURE);
+                    EventCenter.GetInstance().EventTrigger(MyEventType.GETWAVED);
                 }
                 else
                 {
