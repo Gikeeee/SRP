@@ -21,6 +21,7 @@ public static class KeyWords
     //关键词字典
     public static Dictionary<string, List<string>> keyWordsDic = new Dictionary<string, List<string>>
     {
+        { MyEventType.AWAKE, new List<string>{ "娘口娘口"} },
         { MyEventType.CHANGEROLE, new List<string>{ "换角色", "换个角色", "换个人", "换人", "换虚拟角色", "换装", "换装扮"} },
         { MyEventType.SAD, new List<string>{ "难过", "委屈" , "沮丧", "痛苦", "不开心", "不高兴"} },
         { MyEventType.DANCE, new List<string>{ "跳舞", "跳个舞" , "表演", "跳支舞"} },

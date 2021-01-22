@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class SpeechSynthesis : MonoBehaviour
 {
+    public string AWAKESTRING = "喵，我来啦！";
+    public string SLEEPSTRING = "有空再来找我玩啊！";
     public string STARTSTRING = "快来找我玩吧！";
     public string UNWAVESTRING = "随时找我玩呀！";
     public string LISTENSTRING = "我在听呀！";
@@ -27,6 +29,8 @@ public class SpeechSynthesis : MonoBehaviour
         _asr = new Tts(API_KEY, SECRET_KEY);
         StartCoroutine(_asr.GetAccessToken());
         audioSource = GetComponent<AudioSource>();
+        EventCenter.GetInstance().AddEventListener(MyEventType.AWAKE, OnAwake);
+        EventCenter.GetInstance().AddEventListener(MyEventType.SLEEP, OnSleep);
         EventCenter.GetInstance().AddEventListener(MyEventType.SAD, OnSad);
         EventCenter.GetInstance().AddEventListener(MyEventType.HAPPY, OnHappy);
         EventCenter.GetInstance().AddEventListener(MyEventType.KENAN, OnKenan);
@@ -99,6 +103,22 @@ public class SpeechSynthesis : MonoBehaviour
         if (isOwnSpeak) return;
         isOwnSpeak = true;
         StartSpeechSyn(UNWAVESTRING);
+    }
+
+    /// <summary>
+    /// 唤醒语音
+    /// </summary>
+    private void OnAwake()
+    {
+        StartSpeechSyn(AWAKESTRING);
+    }
+    
+    /// <summary>
+    /// 休眠语音
+    /// </summary>
+    private void OnSleep()
+    {
+        StartSpeechSyn(SLEEPSTRING);
     }
 
     /// <summary>
